@@ -10,7 +10,7 @@ To run this repo, you need it plus the following files that cannot be distribuit
 
 - tightvnc
 - pangea.disk
-- win95.img
+- win95.img (making two copies: win95a.img and win95b.img)
 
 Other prerequisites
 
@@ -18,6 +18,14 @@ Other prerequisites
 - java
 - telnet
 
+### Gallery
+
+
+![Alt text](images/access_via_telnet.png?raw=true "Access via telnet")
+
+![Alt text](images/main_home.png?raw=true "...")
+
+![Alt text](images/server_version.png?raw=true "...")
 
 
 ### Pangea
@@ -64,9 +72,11 @@ You can use
 
 To forward:
 
-- Port 23 (for telnet access to Pangea)
+- Port 23 (for telnet access to Pangea, locally available as port 10023)
 - Port 5900 (VNC for Pangea - Worldgroup server)
 - Port 5901 (VNC for Win95)
+- Port 5902 (VNC for a second instance of Win95)
+
 
 I have seen that ThightVNC works well (or at least works...) and you can run it by issuing:
 
