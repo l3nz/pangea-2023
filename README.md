@@ -4,6 +4,24 @@ Running Pangea in 2023
 
 ## What is?
 
+This is how the system used to work between 1996 and 1999:
+
+```mermaid
+flowchart TD
+    P[Pangea\nWorldGroup] 
+    C[Admin Client]
+    B[Blunzer]
+    I[ISDN\n2 lines]
+
+    I -->|Incoming calls| P
+    C --> P
+    P <-->|Email| B
+    B <-->|Exchange email\n2-3 times per day| I
+    
+    P -->|Backups| B
+
+```
+
 ## Contents
 
 To run this repo, you need it plus the following files that cannot be distribuited:
