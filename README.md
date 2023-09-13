@@ -44,6 +44,11 @@ Accessing the BBS through the Windows client:
 ![Alt text](images/main_home.png?raw=true "...")
 
 
+Admin panel + user logged in:
+
+![Alt text](images/side-by-side.png?raw=true "...")
+
+
 The version of Worldgroup installed, as it appears on the client's admin panel:
 
 ![Alt text](images/server_version.png?raw=true "...")
