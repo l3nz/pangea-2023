@@ -8,10 +8,10 @@ This is how the system used to work between 1996 and 1999:
 
 ```mermaid
 flowchart TD
-    P[Pangea\n(WorldGroup)] 
-    C[Admin Client\n(old PC)]
-    B[Blunzer\n(Linux)]
-    I[ISDN\n(2 lines)]
+    P[Pangea\nWorldGroup] 
+    C[Admin Client\nOld PC]
+    B[Blunzer\nLinux]
+    I[ISDN\n2 lines]
 
     I -->|Incoming calls| P
     C --> P
