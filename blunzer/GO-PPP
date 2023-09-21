@@ -1,0 +1,8 @@
+
+#! /bin/bash
+
+exec pppd connect \
+        'chat -v -f /etc/ppp/chatscript' \
+	-detach crtscts modem defaultroute \
+	user alpange \
+	/dev/modem 38400

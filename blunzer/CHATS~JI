@@ -1,0 +1,11 @@
+TIMEOUT 5
+"" ATZ
+OK ATx1DT0332806003
+ABORT "NO CARRIER"
+ABORT BUSY
+TIMEOUT 45
+CONNECT ""
+name: pangea
+word: --pwd--
+inet.it "ppp pangea"
+word: --pwd--
