@@ -1,6 +1,6 @@
 # Un ricordo di Pangea
 
-241227
+241229
 
 ## I pregressi
 
@@ -64,51 +64,54 @@ Un’altra iniziativa, non direttamente correlata alle precedenti, ma unita da s
 
 Come ci si può immaginare, la Varese politica di quegli anni aveva davvero poca simpatia per quello che poteva sembrare un “centro sociale“, e quello che noi immaginavamo come uno spazio in cui suonare e giocare di ruolo veniva immaginato dalla controparte politico-amministratova come una sorta di Giamaica bosina da cui organizzare spedizioni vandaliche di punk ubriachi verso gli eleganti negozi del centro città. Per farla breve, non se ne fece mai nulla. 
 
-Il CS G aveva però un piccolo spazio presso la cooperativa CoopUF di via de Cristoforis, ed alla fine del 1995 aveva un po’ esaurito la propria spinta propulsiva. Quando però si è iniziato a parlare di quanto stava succedendo con le reti civiche, l’idea di avere uno spazio libero, sia pur virtuale, è piaciuta a molti dei membri.
+Il CSG aveva però un piccolo spazio presso la cooperativa CoopUF di via de Cristoforis, ed alla fine del 1995 aveva un po’ esaurito la propria spinta propulsiva. Quando però si è iniziato a parlare di quanto stava succedendo con le reti civiche, l’idea di avere uno spazio libero, sia pur virtuale, è piaciuta a molti dei membri.
 
 
 ## La nascita
 
-
-
-Mi personi il lettore, ma devo ammettere che non ricordo esattamente come sia nata Pangea; tuttavia, nel 1996 gli astri si erano allineati ed avevamo:
+Mi perdoni il lettore, ma devo ammettere che non ricordo esattamente come sia nata Pangea; tuttavia, nel 1996 gli astri si erano allineati ed il cielo ci era favorevole:
 
 - Il gruppo del CSG aveva una sede ed un paio di milioni di lire in cassa, senza grandi prospettive; era interessato a finanziare questo spazio virtuale ed a offrire una sede
-- Con 1 milione di lire circa avremo potuto ottenere la licenza di World group per cinque utenti contemporanei (la più piccola) e con l’altro milione pagare le spese telefoniche di una linea ISDN per un annetto
-- Marco di CMB  e Marco CJK, che trafficavano in hardware, ci potevano procurare un piccolo server assemblato ed un paio di altri computer di seconda mano per allestire il sistema
+- Con 1 milione di lire circa avremo potuto ottenere la licenza di WorldGroup per cinque utenti contemporanei (la più piccola) e con l’altro milione pagare le spese telefoniche di una linea ISDN per un annetto
+- Marco Ghost  e Marco CJK, che trafficavano in hardware, ci potevano procurare un piccolo server assemblato ed un paio di altri computer di seconda mano per allestire il sistema
 - Sara fece un disegno della provincia di Varese che avrebbe dovuto salutare i nostri visitatori
-- Luca di sky Link ci offri la connessione ad Internet, uno spazio in cui creare il nostro sito web e soprattutto la possibilità di offrire agli utenti di Pangea una casella e-mail gratuita 
+- Luca di SkyLink ci offri la connessione ad Internet, uno spazio in cui creare il nostro sito web e soprattutto la possibilità di offrire agli utenti di Pangea una casella e-mail gratuita 
 - Un sysop (il sottoscritto) che l’avrebbe gestito 
 - Gab e CJK avrebbero pubblicizzato l’iniziativa nel mondo degli utenti non tecnici
 
-A questo punto, creammo un’associazione culturale Pangea, aprimmo un’utenza telefonica , cercammo di tenere le spese al minimo e partimmo.
+A questo punto, creammo un’associazione culturale Pangea, aprimmo un’utenza telefonica, cercammo di tenere le spese al minimo e partimmo.
+
+Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonchè una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le ? pagine del manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
+
+I primi utenti registrati (6/8/96) sono Cjk, Ghost, Lenz e Gab; il 7 si sono aggiunti Luigi e Serena.
+
 
 ### La sede
 
-Page si trovava al primo piano presso la CoopUf, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo, il bronzer per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. Da quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. La sala era in condivisione con altre associazioni che la utilizzavano occasionalmente; non abbiamo mai avuto problemi con gli altri utenti. Ogni tanto c’era qualche ubriaco sulle scale o Felix che voleva scroccare una sigaretta, ma considerato il costo sostanzialmente nullo non potevamo certamente lamentarci.
+Pangea si trovava al primo piano presso la CoopUF, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo (il server di Pangea ed un assemblato Vobis con Windows 3.11), il blunzer per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. In più, aa quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. 
+
+La sala era in condivisione con altre associazioni che la utilizzavano occasionalmente; non abbiamo mai avuto problemi con gli altri utenti. Ogni tanto c’era qualche ubriaco sulle scale o Felix che voleva scroccare una sigaretta, ma considerato il costo sostanzialmente nullo non potevamo certamente lamentarci.
 
 ### Il gruppo
 
+Gli utenti di Pangy si incontravano principalmente su Pangea stessa; tuttavia, per tradizione, il sabato pomeriggio era il momento dell’incontro tra tutti quelli che volevano passare a trovarci. Quando c’era qualche nuovo utente che voleva registrarsi o fare un piccolo corso che organizzavano Cristina e Michele, semplicemente passava da noi il sabato pomeriggio e qualcuno era sempre lì.
 
-Gli utenti di Pangy si incontravano principalmente su punge stessa; tuttavia, per tradizione, il sabato pomeriggio era il momento dell’incontro tra tutti quelli che volevano passare a trovarci. Quando c’era qualche nuovo utente che voleva registrarsi o fare un piccolo corso che organizzava Cristina, semplicemente passava da noi il sabato pomeriggio e qualcuno era sempre lì.
+Al sabato pomeriggio, poi c’erano le chat di gruppo: le due linee telefoniche sulla borchia ISDN consentivano a due persone di collegarsi in contemporanea dall'esterno, ed in più il server e il client grafico a fianco consentivano ad altre due persone in sede di chattare tutti insieme. Chattare in quattro, in tempo reale, nel 1996 sembrava un’esperienza futuribile.
 
-Al sabato pomeriggio, poi c’erano le chat di gruppo: le due linee telefoniche sulla borchia ISDN consentivano a due persone di collegarsi in contemporanea, ed in più il server e il client grafico a fianco consentivano ad altre due persone di chattare in contemporanea. Chattare in quattro, in tempo reale, Nel 1996 sembrava un’esperienza futuribile.
-
-Per iscriversi a Pangea era sufficiente creare un account collegandosi la prima volta al sistema; tuttavia questo utente poteva fare relativamente poche cose per evitare di essere invasi dai troll Ch, allora come oggi, non mancano mai. Per essere abilitati come utenti Tiera necessario spedirci una copia della carta d’identità oppure passare in sede al sabato pomeriggio per verificare la propria identità. Pangea chiedeva una piccola donazione libera per far fronte alle spese di gestione e diventare membri dell’associazione culturale.
+Per iscriversi a Pangea era sufficiente creare un account collegandosi la prima volta al sistema; tuttavia questo utente poteva fare relativamente poche cose - questo per evitare di essere invasi dai troll che, allora come oggi, non mancano mai. Per essere abilitati come utenti propriamente detti era necessario spedirci una copia della carta d’identità oppure passare in sede al sabato pomeriggio per verificare la propria identità. Pangea chiedeva una piccola donazione libera per far fronte alle spese di gestione e diventare membri dell’associazione culturale - circa un quinto degli utenti aveva aderito.
 
 ### L’associazione e il finanziamento
 
-Non ricordo esattamente i ruoli nell’associazione; ricordo che ci JK era il presidente e che io non avevo ruoli ufficiali. Se non ricordo male i ruoli erano stati 
-Estratti a sorte con un bussolotto al momento della fondazione.
+Non ricordo esattamente i ruoli nell’associazione; ricordo che CJK era il presidente e che io non avevo ruoli ufficiali. Se non ricordo male i ruoli erano stati estratti a sorte con un bussolotto al momento della fondazione.
 
 C’erano poi dei ruoli non istituzionali ma noti a tutti, ed in particolare:
 
 - Michele si occupava della grafica
-- Cristina si occupava del training e di aiutare i nuovi arrivati
-- Luigi ci aiutava a stendere il bollettino e di comunicati stampa
+- Cristina e Michele si occupavano del training e di aiutare i nuovi arrivati
+- Luigi ci aiutava a stendere il bollettino ed i comunicati stampa
 - …
 
-Non ricordo nemmeno esattamente la situazione dei conti e se fossimo riusciti ad ottenere qualche finanziamento che superava le 50.000 lire da parte di qualche ente o a fine. Quello che mi pare di ricordare è che abbiamo cercato di sopravvivere per il tempo più lungo possibile, con il minimo di risorse possibili.
+Non ricordo nemmeno esattamente la situazione dei conti e se fossimo riusciti ad ottenere qualche finanziamento che superava le 50.000 lire da parte di qualche ente o affine. Quello che mi pare di ricordare è che abbiamo cercato di sopravvivere per il tempo più lungo possibile, con il minimo di risorse possibili.
 
 
 ### Attività sociali
@@ -122,23 +125,99 @@ Il sondaggio della settimana
 
 Xxx
 
+### Altre attività
+
+La birra Fink
+
+Serata Nanni Moretti
+
+## I Pangeanti
+
+
+![AltText](images/storia/utenti_per_classe.png?raw=true "...")
+
+
+![AltText](images/storia/utenti_per_eta.png?raw=true "...")
+
+
+![AltText](images/storia/utenti_per_mese.png?raw=true "...")
+
+
+![AltText](images/storia/utenti_per_quarter.png?raw=true "...")
+
+
+![AltText](images/storia/utenti_per_sesso.png?raw=true "...")
+
+
+![AltText](images/storia/utenti_stock.png?raw=true "...")
+
 
 
 ## Come funzionava: per gli utenti
 
-### La prima connnessione
+### Come connettersi
 
-### Iscrizione
+Per i più avanzati, o chi era già esperto di telematica, la connessione a Pangea avveniva come con una normale BBS. Si componeva il numero con il modem e grazie a un emulatore di terminale si poteva interagire con la BBS dall’altra parte. La BBS era pienamente funzionale in modalità a carattere: praticamente tutto il contenuto era fruibile anche in formato testuale. Se non ricordo male, c’era pure la possibilità di scambiare i pacchetti di posta in modalità off-line reader QWK.
 
-### I corsi
+La modalità più interessante però era quella che utilizzava il client grafico. Alla prima connessione, era possibile scaricare un client ad-hoc, di modo da potersi poi connettere direttamente in modalità grafica - non era necessario nemmeno registrarsi, bastava fare il login con l'utente `client`. Il client funzionava per Windows 3.1 e per Windows 95 prima edizione; non funzionava però per Windows 98.
 
-### Cosa c'era in Pangea
+Il download era comunque piuttosto impegnativo: il client era grosso circa un paio di megabyte, per cui la versione completa sarebbe stata su due dischetti. Per scaricare 2 MB a 14.4k ci si mette una mezz’ora di tempo. L’opzione più semplice per la maggior parte degli utenti era quella di partire direttamente da un dischetto di Pangea: questo era distribuito gratuitamente presso la Runner computer di Varese, oppure si poteva prendere passando in sede da noi. Questo dischetto conteneva un client funzionante e preconfigurato, di modo che era possibile senza nient’altro installato sul computer cliccare sull’icona di Pangea ed il sistema si sarebbe connesso automaticamente. 
+
+Al primo utilizzo alcuni componenti che non erano sul dischetto sarebbero stati aggiornati, ma questo sarebbe avvenuto alla loro apertura - ad esempio, la prima volta che avresti aperto le chat sarebbero state molto lente, dopodiché il componente per le chat sarebbe stato disponibile in locale. La stessa cosa avveniva per la grafica, per cui mano a mano che utilizzavi il sistema, esso diventava più responsivo. Il client era comunque in grado di scaricare più connessioni contemporaneamente, per cui potevi ad esempio chattare mentre stava scaricando il modulo della posta - questo a differenza delle BBS in cui durante lo scarico non potevi fare altro.
+
+### La prima connessione 
+
+Nel corso della prima connessione, il sistema ti proponeva di utilizzare un utente esistente oppure, se non ne avevi uno, di crearne uno nuovo. La policy di Pangea era che questa fosse uno spazio pubblico, per cui tutti o quasi dovevano apparire con nome e cognome. Solo per rari casi era consentito avere un nickname. L’utente così creato era immediatamente operativo - si poteva girare nel sistema e guardarsi in giro, e di leggere le discussioni. Qualora fosse stato creato un utente con un nome non adeguato o sospetto, sarebbe stato sospeso in attesa di chiarimenti oppure cancellato. 
+
+### Diventare utente 
+
+Per diventare un utente a tutti gli effetti era necessario essere verificati: per farlo bisognava accettare e firmare il regolamento d’uso, che comprendeva i principi ispiratori, e mostrare la propria carta d’identità.   Queste operazioni si potevano fare per posta stampando una copia del regolamento ed inviandocelo, oppure passando a trovarci al sabato pomeriggio a Varese. In cambio, si otteneva l’accesso completo e soprattutto una casella e-mail `nome.cognome@pangea.va.it` gratuita ed immediatamente funzionante. 
+
+Al tempo, per avere una casella bisognava avere un abbonamento Internet e spesso pagare un extra al tuo abbonamento ad internet - su Pangea era completamente gratis. Questo è stato un traino importante per i nostri utenti.
+
+### I corsi 
+
+La stragrande maggioranza degli utenti di Pangea non venivano dal mondo delle BBS e spesso avevano una esperienza informatica minima. Il nostro obiettivo era proprio quello di coinvolgere persone che non sarebbero stati interessate alla telematica del tempo.  
+
+Per farlo dovevamo però vestire un po’ tutti i cappelli: dallo spiegare cosa c’era in Pangea, a moderare gli utenti più entusiasti, fino ad aiutare a diagnosticare qualche problema con il modem o con il driver della scheda video.  L’idea era che la comunità si prendesse cura di se stessa, e questo in generale funzionava abbastanza bene. Di solito le persone arrivavano a Pangea tramite il passa parola, perché conoscevano qualcuno che già la utilizzava e magari la vedevano presso di lui.
+
+Cristina - con l’aiuto di Michele - organizzava i corsi del sabato; quando c’era qualche utente (o potenziale utente) interessato, che voleva capire qualcosa di più, teneva un corso di un’ora o due per spiegare le funzionalità di base e come accedere. Spesso il corso si tramutava in una chiacchierata che finiva con una birretta in tardo pomeriggio mano a mano che arrivavano persone in sede.
+
+### Che cosa si trovava in Pangea
+
+- La posta, ovvero i messaggi diretti con gli altri utenti e la e-mail in ingresso ed uscita.
+- Le chat in tempo reale, soprattutto la sera, quando c’era qualcuno in sede
+- I sondaggi della settimana ed i loro risultati
+- Alcune pagine informative gestite da alcune associazioni.a ciascuna pagina era poi collegato un forum di discussione. Non siamo mai riusciti ad avere utenti davvero importanti, tipo i comuni o gli enti locali  - avevamo l’informagiovani, Legambiente varese, il Gruppo Astronomico Tradatese, Agorà, l'ASVP e poco altro
+- Alcune pagine ipermediali di informazione - la Via Verde Varesina, il Sacro Monte di Varese, ed una sezione sul primo soccorso - tutte realizzate da Michele
+- Le schede degli utenti, in cui ciascuno poteva pubblicare alcune piccole informazioni su se stesso a mo' di presentazione (se lo voleva)
+- Alcune aree per i file da cui scaricare ad esempio antivirus o altri strumenti informatici di utilità ed ad accesso libero. Abbiamo sempre evitato di avere materiale potenzialmente problematico in termini di contenuto o di copyright, nell’ottica di avere una piazza virtuale aperta a tutti. Oggi si potrebbero scaricare direttamente da Internet, ma il nostro utente medio non aveva accesso a Internet.
+- I mercatini vendo/scambio
+- Vari forum di discussione ad argomento libero - ad esempio di politica, di relazioni affettive, di supporto tecnico su argomenti interessanti, scacchi e go, ecc. una lista si trova 
+
+### Le mailing-list
+
+Un servizio parallelo offerto da Pangea  era quello di offrire la gestione di mailing list, ovvero gruppi di discussione via e-mail, per alcune associazioni o utenti interessati.
+
+In particolar modo, ricordo una mailing-list di supporto reciproco curata da un gruppo di malati di AIDS che ci aveva contattato per creare questo servizio in maniera "discreta".
+
+
+### Il sito web
+
+Sempre grazie ai buoni uffizi di San Luca, avevamo accesso ad un sito web statico cui pubblicare materiale informativo sulla rete civica e come fare a collegarsi. Da qui inoltre si poteva scaricare il famoso client senza la necessità di andare a prendere il dischetto. Parecchi utenti hanno scaricato il client all’università, l’hanno copiato su un dischetto e poi tornati a casa si sono collegati.
+
+Lo stesso spazio veniva inoltre utilizzato da alcune associazioni presenti su Pangea per pubblicare informazioni per i loro iscritti. Buona parte di questo materiale è ancora disponibile su archive.org.
+
+
 
 ## Dietro le quinte
 
 - 2 lineee + ISDN
 
 ### WolrldGroup
+
+### Le classi di utenti
+
 
 ### Email
 
@@ -150,6 +229,9 @@ Xxx
 
 
 ## La fine
+
+Le ultime telefonate a Pangea sono state fatte il 3 Agosto 1999, a quasi tre anni esatti dalla nascita.
+
 
 ### Il mondo cambia
 
