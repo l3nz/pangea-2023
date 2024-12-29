@@ -79,7 +79,7 @@ Mi perdoni il lettore, ma devo ammettere che non ricordo esattamente come sia na
 - Un sysop (il sottoscritto) che l’avrebbe gestito 
 - Gab e CJK avrebbero pubblicizzato l’iniziativa nel mondo degli utenti non tecnici
 
-A questo punto, creammo un’associazione culturale Pangea, aprimmo un’utenza telefonica, cercammo di tenere le spese al minimo e partimmo.
+A questo punto, il 15 luglio 1996 creammo l'Associazione Culturale Pangea, aprimmo un’utenza telefonica, cercammo di tenere le spese al minimo e partimmo.
 
 Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonchè una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le ? pagine del manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
 
@@ -113,6 +113,14 @@ C’erano poi dei ruoli non istituzionali ma noti a tutti, ed in particolare:
 
 Non ricordo nemmeno esattamente la situazione dei conti e se fossimo riusciti ad ottenere qualche finanziamento che superava le 50.000 lire da parte di qualche ente o affine. Quello che mi pare di ricordare è che abbiamo cercato di sopravvivere per il tempo più lungo possibile, con il minimo di risorse possibili.
 
+### Gli Amici di Pangea
+
+Michele? vedi https://web.archive.org/web/19991111112022/http://www.pangea.va.it/pangea/amici.htm
+
+
+
+
+
 
 ### Attività sociali
 
@@ -120,6 +128,11 @@ Non ricordo nemmeno esattamente la situazione dei conti e se fossimo riusciti ad
 Il bollettino interno il pangeante
 
 veniva mandato a tutti 
+
+- https://web.archive.org/web/19991114130415/http://www.pangea.va.it/pangea/cose_pangeante.htm
+
+
+
 
 Il sondaggio della settimana
 
@@ -132,6 +145,16 @@ La birra Fink
 Serata Nanni Moretti
 
 ## I Pangeanti
+
+
+Pangea è un'iniziativa nata nel luglio 1996 volta a costruire e gestire la prima vera Rete Civica di Varese, una vera e propria piazza virtuale in cui si ritrovano persone, associazioni ed enti che vivono ed operano in Varese e nella sua provincia. Il fine è quello di semplificare e favorire le relazioni umane e di collaborazione tramite l'uso intelligente ed innovativo della tecnologia informatica. L'obiettivo è infatti di migliorare la qualità della vita sociale e di accrescere il senso di appartenenza alla comunità locale.
+
+Pangea non vuole essere una vetrina colorata come oggi è Internet, in cui l'utente 'naviga' tra le pagine informative create da altri: Pangea è costruita principalmente dalle informazioni, conoscenze ed esperienze che ogni persona sceglie di condividere con gli altri. Ciascun utente è contemporaneamente oggetto e soggetto attivo nella comunicazione, che in Pangea è bidirezionale ed aperta al contributo di tutti.
+
+Pangea offre a tutti la possibilità di collegarsi e partecipare: l'accesso è libero e gratuito, le formalità di registrazione sono minime ed il programma utilizzato permette l'uso anche a chi non conosce il computer. Inoltre, un particolare accorgimento tecnico presente nel programma usato (off-line reader) permette di ridurre a soli pochi minuti la durata delle connessioni via telefono, con un costo nettamente inferiore a quello necessario per collegarsi ad Internet. 
+
+
+
 
 
 ![AltText](images/storia/utenti_per_classe.png?raw=true "...")
@@ -152,6 +175,15 @@ Serata Nanni Moretti
 ![AltText](images/storia/utenti_stock.png?raw=true "...")
 
 
+### Enti ed associazioni
+
+https://web.archive.org/web/19991113235307/http://www.pangea.va.it/pangea/ass_off.htm
+
+
+### Cosa farei....
+
+https://web.archive.org/web/19991118095626/http://www.pangea.va.it/pangea/sondaggio2.htm
+
 
 ## Come funzionava: per gli utenti
 
@@ -169,9 +201,14 @@ Al primo utilizzo alcuni componenti che non erano sul dischetto sarebbero stati 
 
 Nel corso della prima connessione, il sistema ti proponeva di utilizzare un utente esistente oppure, se non ne avevi uno, di crearne uno nuovo. La policy di Pangea era che questa fosse uno spazio pubblico, per cui tutti o quasi dovevano apparire con nome e cognome. Solo per rari casi era consentito avere un nickname. L’utente così creato era immediatamente operativo - si poteva girare nel sistema e guardarsi in giro, e di leggere le discussioni. Qualora fosse stato creato un utente con un nome non adeguato o sospetto, sarebbe stato sospeso in attesa di chiarimenti oppure cancellato. 
 
+La guida (in tre parti) è ancora disponibile: https://web.archive.org/web/19991001201309/http://www.pangea.va.it/pangea/pc1.htm
+
 ### Diventare utente 
 
-Per diventare un utente a tutti gli effetti era necessario essere verificati: per farlo bisognava accettare e firmare il regolamento d’uso, che comprendeva i principi ispiratori, e mostrare la propria carta d’identità.   Queste operazioni si potevano fare per posta stampando una copia del regolamento ed inviandocelo, oppure passando a trovarci al sabato pomeriggio a Varese. In cambio, si otteneva l’accesso completo e soprattutto una casella e-mail `nome.cognome@pangea.va.it` gratuita ed immediatamente funzionante. 
+Per diventare un utente a tutti gli effetti era necessario essere verificati: per farlo bisognava accettare e firmare il regolamento d’uso, che comprendeva i principi ispiratori, e mostrare la propria carta d’identità. Il regolamneto d'uso è visibile qui: https://web.archive.org/web/19991118034934/http://www.pangea.va.it/pangea/pi_ru.htm
+
+
+Queste operazioni si potevano fare per posta stampando una copia del regolamento ed inviandocelo, oppure passando a trovarci al sabato pomeriggio a Varese. In cambio, si otteneva l’accesso completo e soprattutto una casella e-mail `nome.cognome@pangea.va.it` gratuita ed immediatamente funzionante. 
 
 Al tempo, per avere una casella bisognava avere un abbonamento Internet e spesso pagare un extra al tuo abbonamento ad internet - su Pangea era completamente gratis. Questo è stato un traino importante per i nostri utenti.
 
@@ -207,6 +244,18 @@ In particolar modo, ricordo una mailing-list di supporto reciproco curata da un 
 Sempre grazie ai buoni uffizi di San Luca, avevamo accesso ad un sito web statico cui pubblicare materiale informativo sulla rete civica e come fare a collegarsi. Da qui inoltre si poteva scaricare il famoso client senza la necessità di andare a prendere il dischetto. Parecchi utenti hanno scaricato il client all’università, l’hanno copiato su un dischetto e poi tornati a casa si sono collegati.
 
 Lo stesso spazio veniva inoltre utilizzato da alcune associazioni presenti su Pangea per pubblicare informazioni per i loro iscritti. Buona parte di questo materiale è ancora disponibile su archive.org.
+
+
+dal 16.1.99  https://web.archive.org/web/19991023111805/http://www.pangea.va.it/pangea/news_00002.htm
+
+
+Versioni:
+
+- Settembre 96: https://web.archive.org/web/20240913185118/http://www.pangea.va.it/indice.htm
+- Aprile 98: https://web.archive.org/web/19981212031722/http://www.pangea.va.it/
+- Gennaio 99: https://web.archive.org/web/20000304045153/http://www.pangea.va.it/pangea/index.htm
+
+
 
 
 
