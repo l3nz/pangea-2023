@@ -1,6 +1,18 @@
 # Un ricordo di Pangea
 
-241229
+- 241229
+
+Tanto tempo fa, in una galassia lontana lontana....
+
+
+_Pangea è un'iniziativa nata nel luglio 1996 volta a costruire e gestire la prima vera Rete Civica di Varese, una vera e propria piazza virtuale in cui si ritrovano persone, associazioni ed enti che vivono ed operano in Varese e nella sua provincia. Il fine è quello di semplificare e favorire le relazioni umane e di collaborazione tramite l'uso intelligente ed innovativo della tecnologia informatica. L'obiettivo è infatti di migliorare la qualità della vita sociale e di accrescere il senso di appartenenza alla comunità locale._
+
+_Pangea non vuole essere una vetrina colorata come oggi è Internet, in cui l'utente 'naviga' tra le pagine informative create da altri: Pangea è costruita principalmente dalle informazioni, conoscenze ed esperienze che ogni persona sceglie di condividere con gli altri. Ciascun utente è contemporaneamente oggetto e soggetto attivo nella comunicazione, che in Pangea è bidirezionale ed aperta al contributo di tutti._
+
+_Pangea offre a tutti la possibilità di collegarsi e partecipare: l'accesso è libero e gratuito, le formalità di registrazione sono minime ed il programma utilizzato permette l'uso anche a chi non conosce il computer. Inoltre, un particolare accorgimento tecnico presente nel programma usato (off-line reader) permette di ridurre a soli pochi minuti la durata delle connessioni via telefono, con un costo nettamente inferiore a quello necessario per collegarsi ad Internet._
+
+
+
 
 ## I pregressi
 
@@ -147,11 +159,6 @@ Serata Nanni Moretti
 ## I Pangeanti
 
 
-Pangea è un'iniziativa nata nel luglio 1996 volta a costruire e gestire la prima vera Rete Civica di Varese, una vera e propria piazza virtuale in cui si ritrovano persone, associazioni ed enti che vivono ed operano in Varese e nella sua provincia. Il fine è quello di semplificare e favorire le relazioni umane e di collaborazione tramite l'uso intelligente ed innovativo della tecnologia informatica. L'obiettivo è infatti di migliorare la qualità della vita sociale e di accrescere il senso di appartenenza alla comunità locale.
-
-Pangea non vuole essere una vetrina colorata come oggi è Internet, in cui l'utente 'naviga' tra le pagine informative create da altri: Pangea è costruita principalmente dalle informazioni, conoscenze ed esperienze che ogni persona sceglie di condividere con gli altri. Ciascun utente è contemporaneamente oggetto e soggetto attivo nella comunicazione, che in Pangea è bidirezionale ed aperta al contributo di tutti.
-
-Pangea offre a tutti la possibilità di collegarsi e partecipare: l'accesso è libero e gratuito, le formalità di registrazione sono minime ed il programma utilizzato permette l'uso anche a chi non conosce il computer. Inoltre, un particolare accorgimento tecnico presente nel programma usato (off-line reader) permette di ridurre a soli pochi minuti la durata delle connessioni via telefono, con un costo nettamente inferiore a quello necessario per collegarsi ad Internet. 
 
 
 
