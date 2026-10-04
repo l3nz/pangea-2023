@@ -1,5 +1,12 @@
 # Un ricordo di Pangea
 
+> [!NOTE]  
+> Questi sono i ricordi di un uomo con poca memoria. Alcuni sono confusi, sono passati trent'anni. 
+> Se avete correzioni, sono le benvenute.
+
+
+
+
 - 241229
 
 Tanto tempo fa, in una galassia lontana lontana....
