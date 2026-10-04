@@ -32,15 +32,15 @@ Lo scenario in Italia ancora a metà degli anni 90 era profondamente diverso. In
 
 Dal punto di vista della telematica, vi erano alcune importanti limitazioni:
 
-- in teoria, potevano essere collegati alla rete solo apparati omologati. Questi apparati si dovevano ottenere dal monopolista, per cui in generale il modem che avevi comprato dall’estero non lo era e probabilmente neppure quello che avevi comperato nel negozio di computer. Di conseguenza tutto quasi tutta la telematica amatoriale era più o meno fuori legge. Naturalmente non vi era modo per la SIP di sapere cosa fosse attaccato alla presa telefonica, anche perché quello di cui mancava il tuo modem non erano generalmente i parametri elettrici, ma il bollino della procedura di omologazione. In ogni caso rimaneva il problema del rischio di trovarsi una multa o un sequestro, soprattutto per chi gestiva le BBS.
-- I prezzi delle telecomunicazioni erano molto elevati. Se un tempo le comunicazioni locali erano a tariffa fissa (ovvero costavano circa 200 lire indipendentemente dalla loro durata), dagli anni 90 Anche le chiamate locali hanno iniziato ad essere tariffate secondo la loro durata.quando dico locali intendo propriamente locali, già telefonare in un comune attiguo poteva diventare un’esperienza costosa, e se si facevano telefonate interurbane il costo saliva vertiginosamente - ricordo le schede telefoniche da 10.000 lire mangiate velocemente alla cabina dal mio amico che aveva la fidanzatina a legnano e la chiamava da Varese. I costi delle telefonate internazionali erano proibitivi, nell’ordine di qualche migliaio di lire al minuto.
+- in teoria, potevano essere collegati alla rete solo apparati omologati. Questi apparati si dovevano ottenere dal monopolista, per cui in generale il modem che avevi comprato dall’estero non lo era e probabilmente neppure quello che avevi comperato nel negozio di computer. Di conseguenza quasi tutta la telematica amatoriale era più o meno fuori legge. Naturalmente non vi era modo per la SIP di sapere cosa fosse attaccato alla presa telefonica, anche perché quello di cui mancava il tuo modem non erano generalmente i parametri elettrici, ma il bollino della procedura di omologazione. In ogni caso rimaneva il problema del rischio di trovarsi una multa o un sequestro, soprattutto per chi gestiva le BBS.
+- I prezzi delle telecomunicazioni erano molto elevati. Se un tempo le comunicazioni locali erano a tariffa fissa (ovvero costavano circa 200 lire indipendentemente dalla loro durata), dagli anni 90 anche le chiamate locali hanno iniziato ad essere tariffate secondo la loro durata. Quando dico locali intendo propriamente locali, già telefonare in un comune attiguo poteva diventare un’esperienza costosa, e se si facevano telefonate interurbane il costo saliva vertiginosamente - ricordo le schede telefoniche da 10.000 lire mangiate velocemente alla cabina dal mio amico che aveva la fidanzatina a Legnano e la chiamava da Varese. I costi delle telefonate internazionali erano proibitivi, nell’ordine di qualche migliaio di lire al minuto.
 - La linea telefonica domestica era tipicamente unica; mentre tu eri connesso con la BBS, nessuno poteva telefonare a tua mamma o a tua sorella. Per cui le lunghe sessioni sulla BBS erano o notturne oppure soggette a musi in famiglia. 
-- Non c’era Internet, o meglio, i primi provider per un uso domestico ma anche business iniziavano a nascere all’inizio degli anni 90. In generale, una casella e-mail con cui comunicare con tutto il mondo era ben aldilà da venire per la quasi totalità della popolazione. in Italia esisteva una rete commutazione di pacchetto ITAPAC che era stata creata dalla Sip negli anni 80, ma costi e condizioni di accesso la rendevano improponibile per un’utenza di massa.
+- Non c’era Internet, o meglio, i primi provider per un uso domestico ma anche business iniziavano a nascere all’inizio degli anni 90. In generale, una casella e-mail con cui comunicare con tutto il mondo era ben al di là da venire per la quasi totalità della popolazione. In Italia esisteva una rete a commutazione di pacchetto ITAPAC che era stata creata dalla Sip negli anni 80, ma costi e condizioni di accesso la rendevano improponibile per un’utenza di massa.
 
 All’interno di questo scenario fosco, vi erano tuttavia alcune note positive:
 
-- L’informatica stava diventando di massa con il pc assemblati che iniziavano a fare bella mostra di sé in quasi tutti gli uffici e molte camerette. Non parliamo di computer per smanettoni come l’Amiga nella mia cameretta o degli OS/2 di molte BBS, ma di macchine con Windows e tipicamente Word ed Excel per scrivere lettere e tenere piccole contabilità.
-- Iniziavano ad essere disponibili i primi modem veloci a basso costo. Non si trattava più degli US robotics Courier HST con costi e dimensioni molto elevate, ma di scatolette taiwanesi di qualità variabile e velocità di 14.4 o 19.2, che erano un bel passo avanti dagli antiquati 1200 o 2400 senza compressione e senza correzione dell’errore della generazione precedente.
+- L’informatica stava diventando di massa con i pc assemblati che iniziavano a fare bella mostra di sé in quasi tutti gli uffici e molte camerette. Non parliamo di computer per smanettoni come l’Amiga nella mia cameretta o degli OS/2 di molte BBS, ma di macchine con Windows e tipicamente Word ed Excel per scrivere lettere e tenere piccole contabilità.
+- Iniziavano ad essere disponibili i primi modem veloci a basso costo. Non si trattava più degli US Robotics Courier HST con costi e dimensioni molto elevate, ma di scatolette taiwanesi di qualità variabile e velocità di 14.4 o 19.2, che erano un bel passo avanti dagli antiquati 1200 o 2400 senza compressione e senza correzione dell’errore della generazione precedente.
 - Sui giornali si iniziava a parlare di questa misteriosa “Internet” che nelle lontane Americhe, ma per i più sgamati anche a Malgesso, iniziava a muovere i primi passi per un mercato di massa.
 
 
@@ -54,34 +54,34 @@ Nei primi anni 90, intorno a Varese, esisteva già una nutrita rete di speriment
 
 A Varese c’erano alcune BBS “storiche”, e molte altre che andavano e venivano nel tempo a seconda della disponibilità di tempo dei loro sysop e degli importi delle bollette telefoniche ricevute.
 
-La prima BBS di Varese era sicuramente HAL BBS, nodo FidoNet, fondata da Bruno già da parecchi anni e punto di riferimento per tutta la telematica locale. C’era poi Skorpion BBS, famosa allora per la collezione apparentemente sterminata di fotografie di signorine poco vestite, e nodo FidoNet. C’era poi sky link a Malgesso, punto di riferimento per gli utenti Amiga poi diventato uno dei primi nodi Internet in Italia, CMB a Casciago, e parecchie altre che non ricordo in zona Gallarate.
+La prima BBS di Varese era sicuramente HAL BBS, nodo FidoNet, fondata da Bruno già da parecchi anni e punto di riferimento per tutta la telematica locale. C’era poi Skorpion BBS, famosa allora per la collezione apparentemente sterminata di fotografie di signorine poco vestite, e nodo FidoNet. C’era poi SkyLink a Malgesso, punto di riferimento per gli utenti Amiga poi diventato uno dei primi nodi Internet in Italia, CMB a Casciago, e parecchie altre che non ricordo in zona Gallarate.
 
 Un paio di volte all’anno ci si trovava per la classica Fido pizza; che era l’occasione di vedersi dal vivo dopo tanti messaggi testuali. Ho l’impressione che quasi tutti i partecipanti alle fido pizze siano diventati professionisti in ambito IT e rappresentino il nucleo originale dei pionieri di Internet in Italia.
 
 
-#### La Rete Civida di Milano 
+#### La Rete Civica di Milano 
 
-In parallelo alle BBS, che erano piuttosto complicate da gestire e anche da utilizzare per persone che non fossero dei veri e propri nerd, iniziava in Italia ad esserci un altro filone di quella che si sarebbe chiamata informatica civica. Presso la facoltà di informatica dell’Università di Milano Era infatti nata RCM, ovvero la rete civica di Milano, su iniziativa della professoressa De Cindio. L’idea era quella di sviluppare degli spazi di comunicazione civica adatti a tutti, non solo agli studenti di ingegneria, e di vedere come questi strumenti avrebbero promosso la conoscenza tra le persone e forse una democrazia dal basso.
+In parallelo alle BBS, che erano piuttosto complicate da gestire e anche da utilizzare per persone che non fossero dei veri e propri nerd, iniziava in Italia ad esserci un altro filone di quella che si sarebbe chiamata informatica civica. Presso la facoltà di informatica dell’Università di Milano era infatti nata RCM, ovvero la rete civica di Milano, su iniziativa della professoressa De Cindio. L’idea era quella di sviluppare degli spazi di comunicazione civica adatti a tutti, non solo agli studenti di ingegneria, e di vedere come questi strumenti avrebbero promosso la conoscenza tra le persone e forse una democrazia dal basso.
 
-Dal punto di vista tecnico, R CM si appoggiava ad un software chiamato first class, che girava su dei server Macintosh e si offriva come un programma grafico funzionante sia in ambiente Windows che in ambiente Macintosh. Rete civica aveva un budget decisamente superiore a quella di qualunque BBS dell’epoca , probabilmente superiore a quella di tutte le BBS dell’epoca messe insieme, in quanto richiedeva un certo numero di costosi server Macintosh, moltissime linee telefoniche in quanto il programma funzionava solo connesso al telefono, più le non economiche licenze del software stesso. Firstclass era pensato per funzionare soprattutto utilizzando una rete locale, e solo successivamente utilizzando un modem.
+Dal punto di vista tecnico, RCM si appoggiava ad un software chiamato FirstClass, che girava su dei server Macintosh e si offriva come un programma grafico funzionante sia in ambiente Windows che in ambiente Macintosh. Rete civica aveva un budget decisamente superiore a quello di qualunque BBS dell’epoca, probabilmente superiore a quello di tutte le BBS dell’epoca messe insieme, in quanto richiedeva un certo numero di costosi server Macintosh, moltissime linee telefoniche in quanto il programma funzionava solo connesso al telefono, più le non economiche licenze del software stesso. FirstClass era pensato per funzionare soprattutto utilizzando una rete locale, e solo successivamente utilizzando un modem.
 
 #### ArcomerA
 
-Su iniziativa di alcuni studenti che avevano fatto l’esperienza della rete civica di Milano, era nata l’idea di portare a Varese un’esperienza simile. Il progetto avrebbe dovuto chiamarsi ArcomerA, pensando alla porta di Varese che mette in comunicazione la basilica con i la piazza del garibaldino. 
+Su iniziativa di alcuni studenti che avevano fatto l’esperienza della rete civica di Milano, era nata l’idea di portare a Varese un’esperienza simile. Il progetto avrebbe dovuto chiamarsi ArcomerA, pensando alla porta di Varese che mette in comunicazione la basilica con la piazza del garibaldino. 
 
 L’iniziativa aveva prodotto molte idee di quello che avremmo potuto fare, ma poche idee realizzabili: il costo dell’operazione era decisamente sostenuto, i tentativi di trovare una linea di finanziamento presso gli enti locali si erano scontrati contro la totale incomprensione di questi ultimi. 
 
 In più, il gruppo di organizzatori era formato in prevalenza da persone senza nessun background tecnico, per cui il passaggio dalle parole ai fatti non è poi mai avvenuto. 
 
-Nel corso degli studi per realizzare questa iniziativa, però, mi ero imbattuto in un software pure commerciale ma molto meno costoso di first class e molto più efficiente, che si chiamava World group. Questo consentiva di avere una BBS con un client grafico facile da utilizzare quanto quello della rete civica di Milano, ma dotato di un off-line reader integrato ovvero di una modalità per cui uno si poteva collegare per qualche minuto alla BBS, scambiare la posta e di messaggi di suo interesse, e successivamente sconnettersi per leggerli e rispondere. 
+Nel corso degli studi per realizzare questa iniziativa, però, mi ero imbattuto in un software pure commerciale ma molto meno costoso di FirstClass e molto più efficiente, che si chiamava WorldGroup. Questo consentiva di avere una BBS con un client grafico facile da utilizzare quanto quello della rete civica di Milano, ma dotato di un off-line reader integrato ovvero di una modalità per cui uno si poteva collegare per qualche minuto alla BBS, scambiare la posta e i messaggi di suo interesse, e successivamente sconnettersi per leggerli e rispondere. 
 
-In questo modo il costo telefonico era più basso per il chiamante, e soprattutto dal lato della BBS servivano molte meno linee telefoniche per gestire lo stesso numero di utenti. Per chi voleva comunque un’esperienza online, tutte le funzioni di chat in tempo reale e di navigazione su pagine proto-web erano presenti. In più, non veniva venduto da una società di Milano in cui lavorava Bruno, quello di Hal. Io ero personalmente convinto che questa fosse una buona opportunità, ma il gruppo legato alla rete civica di Milano non voleva pensare a una soluzione differente da quella milanese sotto pena di lesa maestà (a posteriori, una delle esperienze di maggiore successo delle tra le reti civiche è stata la rete civica di San Donato, fondata da uno studente di informatica , che si appoggiava appunto come noi a World group.)
+In questo modo il costo telefonico era più basso per il chiamante, e soprattutto dal lato della BBS servivano molte meno linee telefoniche per gestire lo stesso numero di utenti. Per chi voleva comunque un’esperienza online, tutte le funzioni di chat in tempo reale e di navigazione su pagine proto-web erano presenti. In più, non veniva venduto da una società di Milano in cui lavorava Bruno, quello di Hal. Io ero personalmente convinto che questa fosse una buona opportunità, ma il gruppo legato alla rete civica di Milano non voleva pensare a una soluzione differente da quella milanese sotto pena di lesa maestà (a posteriori, una delle esperienze di maggiore successo tra le reti civiche è stata la rete civica di San Donato, fondata da uno studente di informatica, che si appoggiava appunto come noi a WorldGroup.)
 
 #### Il CSG
 
-Un’altra iniziativa, non direttamente correlata alle precedenti, ma unita da solidi rapporti personali di amicizia, era quella del CS G, ovvero il comitato per gli spazi giovanili, che era nato alcuni anni prima per chiedere la costituzione di uno spazio autogestito per i giovani di Varese, identificando una valida opportunità nella palazzina ??? che era stata di recente abbandonata e presa in gestione dal Comune. 
+Un’altra iniziativa, non direttamente correlata alle precedenti, ma unita da solidi rapporti personali di amicizia, era quella del CSG, ovvero il comitato per gli spazi giovanili, che era nato alcuni anni prima per chiedere la costituzione di uno spazio autogestito per i giovani di Varese, identificando una valida opportunità nella palazzina ??? che era stata di recente abbandonata e presa in gestione dal Comune. 
 
-Come ci si può immaginare, la Varese politica di quegli anni aveva davvero poca simpatia per quello che poteva sembrare un “centro sociale“, e quello che noi immaginavamo come uno spazio in cui suonare e giocare di ruolo veniva immaginato dalla controparte politico-amministratova come una sorta di Giamaica bosina da cui organizzare spedizioni vandaliche di punk ubriachi verso gli eleganti negozi del centro città. Per farla breve, non se ne fece mai nulla. 
+Come ci si può immaginare, la Varese politica di quegli anni aveva davvero poca simpatia per quello che poteva sembrare un “centro sociale“, e quello che noi immaginavamo come uno spazio in cui suonare e giocare di ruolo veniva immaginato dalla controparte politico-amministrativa come una sorta di Giamaica bosina da cui organizzare spedizioni vandaliche di punk ubriachi verso gli eleganti negozi del centro città. Per farla breve, non se ne fece mai nulla. 
 
 Il CSG aveva però un piccolo spazio presso la cooperativa CoopUF di via de Cristoforis, ed alla fine del 1995 aveva un po’ esaurito la propria spinta propulsiva. Quando però si è iniziato a parlare di quanto stava succedendo con le reti civiche, l’idea di avere uno spazio libero, sia pur virtuale, è piaciuta a molti dei membri.
 
@@ -91,23 +91,23 @@ Il CSG aveva però un piccolo spazio presso la cooperativa CoopUF di via de Cris
 Mi perdoni il lettore, ma devo ammettere che non ricordo esattamente come sia nata Pangea; tuttavia, nel 1996 gli astri si erano allineati ed il cielo ci era favorevole:
 
 - Il gruppo del CSG aveva una sede ed un paio di milioni di lire in cassa, senza grandi prospettive; era interessato a finanziare questo spazio virtuale ed a offrire una sede
-- Con 1 milione di lire circa avremo potuto ottenere la licenza di WorldGroup per cinque utenti contemporanei (la più piccola) e con l’altro milione pagare le spese telefoniche di una linea ISDN per un annetto
-- Marco Ghost  e Marco CJK, che trafficavano in hardware, ci potevano procurare un piccolo server assemblato ed un paio di altri computer di seconda mano per allestire il sistema
+- Con 1 milione di lire circa avremmo potuto ottenere la licenza di WorldGroup per cinque utenti contemporanei (la più piccola) e con l’altro milione pagare le spese telefoniche di una linea ISDN per un annetto
+- Marco Ghost e Marco CJK, che trafficavano in hardware, ci potevano procurare un piccolo server assemblato ed un paio di altri computer di seconda mano per allestire il sistema
 - Sara fece un disegno della provincia di Varese che avrebbe dovuto salutare i nostri visitatori
-- Luca di SkyLink ci offri la connessione ad Internet, uno spazio in cui creare il nostro sito web e soprattutto la possibilità di offrire agli utenti di Pangea una casella e-mail gratuita 
+- Luca di SkyLink ci offrì la connessione ad Internet, uno spazio in cui creare il nostro sito web e soprattutto la possibilità di offrire agli utenti di Pangea una casella e-mail gratuita 
 - Un sysop (il sottoscritto) che l’avrebbe gestito 
 - Gab e CJK avrebbero pubblicizzato l’iniziativa nel mondo degli utenti non tecnici
 
 A questo punto, il 15 luglio 1996 creammo l'Associazione Culturale Pangea, aprimmo un’utenza telefonica, cercammo di tenere le spese al minimo e partimmo.
 
-Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonchè una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le ? pagine del manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
+Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonché una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le ? pagine del manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
 
 I primi utenti registrati (6/8/96) sono Cjk, Ghost, Lenz e Gab; il 7 si sono aggiunti Luigi e Serena.
 
 
 ### La sede
 
-Pangea si trovava al primo piano presso la CoopUF, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo (il server di Pangea ed un assemblato Vobis con Windows 3.11), il blunzer per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. In più, aa quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. 
+Pangea si trovava al primo piano presso la CoopUF, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo (il server di Pangea ed un assemblato Vobis con Windows 3.11), il blunzer per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. In più, da quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. 
 
 La sala era in condivisione con altre associazioni che la utilizzavano occasionalmente; non abbiamo mai avuto problemi con gli altri utenti. Ogni tanto c’era qualche ubriaco sulle scale o Felix che voleva scroccare una sigaretta, ma considerato il costo sostanzialmente nullo non potevamo certamente lamentarci.
 
@@ -213,13 +213,13 @@ Al primo utilizzo alcuni componenti che non erano sul dischetto sarebbero stati 
 
 ### La prima connessione 
 
-Nel corso della prima connessione, il sistema ti proponeva di utilizzare un utente esistente oppure, se non ne avevi uno, di crearne uno nuovo. La policy di Pangea era che questa fosse uno spazio pubblico, per cui tutti o quasi dovevano apparire con nome e cognome. Solo per rari casi era consentito avere un nickname. L’utente così creato era immediatamente operativo - si poteva girare nel sistema e guardarsi in giro, e di leggere le discussioni. Qualora fosse stato creato un utente con un nome non adeguato o sospetto, sarebbe stato sospeso in attesa di chiarimenti oppure cancellato. 
+Nel corso della prima connessione, il sistema ti proponeva di utilizzare un utente esistente oppure, se non ne avevi uno, di crearne uno nuovo. La policy di Pangea era che questa fosse uno spazio pubblico, per cui tutti o quasi dovevano apparire con nome e cognome. Solo per rari casi era consentito avere un nickname. L’utente così creato era immediatamente operativo - si poteva girare nel sistema e guardarsi in giro, e leggere le discussioni. Qualora fosse stato creato un utente con un nome non adeguato o sospetto, sarebbe stato sospeso in attesa di chiarimenti oppure cancellato. 
 
 La guida (in tre parti) è ancora disponibile: https://web.archive.org/web/19991001201309/http://www.pangea.va.it/pangea/pc1.htm
 
 ### Diventare utente 
 
-Per diventare un utente a tutti gli effetti era necessario essere verificati: per farlo bisognava accettare e firmare il regolamento d’uso, che comprendeva i principi ispiratori, e mostrare la propria carta d’identità. Il regolamneto d'uso è visibile qui: https://web.archive.org/web/19991118034934/http://www.pangea.va.it/pangea/pi_ru.htm
+Per diventare un utente a tutti gli effetti era necessario essere verificati: per farlo bisognava accettare e firmare il regolamento d’uso, che comprendeva i principi ispiratori, e mostrare la propria carta d’identità. Il regolamento d'uso è visibile qui: https://web.archive.org/web/19991118034934/http://www.pangea.va.it/pangea/pi_ru.htm
 
 
 Queste operazioni si potevano fare per posta stampando una copia del regolamento ed inviandocelo, oppure passando a trovarci al sabato pomeriggio a Varese. In cambio, si otteneva l’accesso completo e soprattutto una casella e-mail `nome.cognome@pangea.va.it` gratuita ed immediatamente funzionante. 
@@ -228,7 +228,7 @@ Al tempo, per avere una casella bisognava avere un abbonamento Internet e spesso
 
 ### I corsi 
 
-La stragrande maggioranza degli utenti di Pangea non venivano dal mondo delle BBS e spesso avevano una esperienza informatica minima. Il nostro obiettivo era proprio quello di coinvolgere persone che non sarebbero stati interessate alla telematica del tempo.  
+La stragrande maggioranza degli utenti di Pangea non venivano dal mondo delle BBS e spesso avevano una esperienza informatica minima. Il nostro obiettivo era proprio quello di coinvolgere persone che non sarebbero state interessate alla telematica del tempo.  
 
 Per farlo dovevamo però vestire un po’ tutti i cappelli: dallo spiegare cosa c’era in Pangea, a moderare gli utenti più entusiasti, fino ad aiutare a diagnosticare qualche problema con il modem o con il driver della scheda video.  L’idea era che la comunità si prendesse cura di se stessa, e questo in generale funzionava abbastanza bene. Di solito le persone arrivavano a Pangea tramite il passa parola, perché conoscevano qualcuno che già la utilizzava e magari la vedevano presso di lui.
 
@@ -239,23 +239,23 @@ Cristina - con l’aiuto di Michele - organizzava i corsi del sabato; quando c�
 - La posta, ovvero i messaggi diretti con gli altri utenti e la e-mail in ingresso ed uscita.
 - Le chat in tempo reale, soprattutto la sera, quando c’era qualcuno in sede
 - I sondaggi della settimana ed i loro risultati
-- Alcune pagine informative gestite da alcune associazioni.a ciascuna pagina era poi collegato un forum di discussione. Non siamo mai riusciti ad avere utenti davvero importanti, tipo i comuni o gli enti locali  - avevamo l’informagiovani, Legambiente varese, il Gruppo Astronomico Tradatese, Agorà, l'ASVP e poco altro
+- Alcune pagine informative gestite da alcune associazioni. A ciascuna pagina era poi collegato un forum di discussione. Non siamo mai riusciti ad avere utenti davvero importanti, tipo i comuni o gli enti locali  - avevamo l’informagiovani, Legambiente varese, il Gruppo Astronomico Tradatese, Agorà, l'ASVP e poco altro
 - Alcune pagine ipermediali di informazione - la Via Verde Varesina, il Sacro Monte di Varese, ed una sezione sul primo soccorso - tutte realizzate da Michele
 - Le schede degli utenti, in cui ciascuno poteva pubblicare alcune piccole informazioni su se stesso a mo' di presentazione (se lo voleva)
-- Alcune aree per i file da cui scaricare ad esempio antivirus o altri strumenti informatici di utilità ed ad accesso libero. Abbiamo sempre evitato di avere materiale potenzialmente problematico in termini di contenuto o di copyright, nell’ottica di avere una piazza virtuale aperta a tutti. Oggi si potrebbero scaricare direttamente da Internet, ma il nostro utente medio non aveva accesso a Internet.
+- Alcune aree per i file da cui scaricare ad esempio antivirus o altri strumenti informatici di utilità e ad accesso libero. Abbiamo sempre evitato di avere materiale potenzialmente problematico in termini di contenuto o di copyright, nell’ottica di avere una piazza virtuale aperta a tutti. Oggi si potrebbero scaricare direttamente da Internet, ma il nostro utente medio non aveva accesso a Internet.
 - I mercatini vendo/scambio
 - Vari forum di discussione ad argomento libero - ad esempio di politica, di relazioni affettive, di supporto tecnico su argomenti interessanti, scacchi e go, ecc. una lista si trova 
 
 ### Le mailing-list
 
-Un servizio parallelo offerto da Pangea  era quello di offrire la gestione di mailing list, ovvero gruppi di discussione via e-mail, per alcune associazioni o utenti interessati.
+Un servizio parallelo offerto da Pangea era quello di offrire la gestione di mailing list, ovvero gruppi di discussione via e-mail, per alcune associazioni o utenti interessati.
 
 In particolar modo, ricordo una mailing-list di supporto reciproco curata da un gruppo di malati di AIDS che ci aveva contattato per creare questo servizio in maniera "discreta".
 
 
 ### Il sito web
 
-Sempre grazie ai buoni uffizi di San Luca, avevamo accesso ad un sito web statico cui pubblicare materiale informativo sulla rete civica e come fare a collegarsi. Da qui inoltre si poteva scaricare il famoso client senza la necessità di andare a prendere il dischetto. Parecchi utenti hanno scaricato il client all’università, l’hanno copiato su un dischetto e poi tornati a casa si sono collegati.
+Sempre grazie ai buoni uffici di San Luca, avevamo accesso ad un sito web statico cui pubblicare materiale informativo sulla rete civica e come fare a collegarsi. Da qui inoltre si poteva scaricare il famoso client senza la necessità di andare a prendere il dischetto. Parecchi utenti hanno scaricato il client all’università, l’hanno copiato su un dischetto e poi tornati a casa si sono collegati.
 
 Lo stesso spazio veniva inoltre utilizzato da alcune associazioni presenti su Pangea per pubblicare informazioni per i loro iscritti. Buona parte di questo materiale è ancora disponibile su archive.org.
 
@@ -275,9 +275,9 @@ Versioni:
 
 ## Dietro le quinte
 
-- 2 lineee + ISDN
+- 2 linee + ISDN
 
-### WolrldGroup
+### WorldGroup
 
 ### Le classi di utenti
 
@@ -300,7 +300,7 @@ Le ultime telefonate a Pangea sono state fatte il 3 Agosto 1999, a quasi tre ann
 
 ### Accesso a Internet
 
-### Worldgroup
+### WorldGroup
 
 
 
