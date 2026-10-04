@@ -54,7 +54,7 @@ Nei primi anni 90, intorno a Varese, esisteva già una nutrita rete di speriment
 
 A Varese c’erano alcune BBS “storiche”, e molte altre che andavano e venivano nel tempo a seconda della disponibilità di tempo dei loro sysop e degli importi delle bollette telefoniche ricevute.
 
-La prima BBS di Varese era sicuramente HALB BS, nodo FidoNet, fondata da Bruno già da parecchi anni e punto di riferimento per tutta la telematica locale. C’era poi Skorpion BBS, famosa allora per la collezione apparentemente sterminata di fotografie di signorine poco vestite, e nodo FidoNet. C’era poi sky link a Malgesso, punto di riferimento per gli utenti Amiga poi diventato uno dei primi nodi Internet in Italia, CMB a Cascigo, e parecchie altre che non ricordo in zona Gallarate.
+La prima BBS di Varese era sicuramente HAL BBS, nodo FidoNet, fondata da Bruno già da parecchi anni e punto di riferimento per tutta la telematica locale. C’era poi Skorpion BBS, famosa allora per la collezione apparentemente sterminata di fotografie di signorine poco vestite, e nodo FidoNet. C’era poi sky link a Malgesso, punto di riferimento per gli utenti Amiga poi diventato uno dei primi nodi Internet in Italia, CMB a Casciago, e parecchie altre che non ricordo in zona Gallarate.
 
 Un paio di volte all’anno ci si trovava per la classica Fido pizza; che era l’occasione di vedersi dal vivo dopo tanti messaggi testuali. Ho l’impressione che quasi tutti i partecipanti alle fido pizze siano diventati professionisti in ambito IT e rappresentino il nucleo originale dei pionieri di Internet in Italia.
 
