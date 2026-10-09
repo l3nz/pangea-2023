@@ -107,7 +107,7 @@ I primi utenti registrati (6/8/96) sono Cjk, Ghost, Lenz e Gab; il 7 si sono agg
 
 ### La sede
 
-Pangea si trovava al primo piano presso la CoopUF, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo (il server di Pangea ed un assemblato Vobis con Windows 3.11), il blunzer per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. In più, da quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. 
+Pangea si trovava al primo piano presso la CoopUF, di fianco alla sala da proiezioni ed allo studio di un fotografo. Non c’era molto: un paio di computer su un tavolo (il server di Pangea ed un assemblato Vobis con Windows 3.11), il blunzer (il PC Linux che faceva da gateway di posta e di backup, il cui nome viene da un libro di Rudy Rucker, forse "The Hacker and the Ants") per terra, la borchia ISDN sul muro dietro di noi. La sala era polverosa, piena di cenere di sigarette e decisamente non troppo pulita. In più, da quella volta in cui si era bloccata la ventola della CPU del server e l’avevamo riparato con qualche goccia di olio chiesto al bar sottostante, nei momenti di massimo carico si diffondeva un odore di patatine fritte. 
 
 La sala era in condivisione con altre associazioni che la utilizzavano occasionalmente; non abbiamo mai avuto problemi con gli altri utenti. Ogni tanto c’era qualche ubriaco sulle scale o Felix che voleva scroccare una sigaretta, ma considerato il costo sostanzialmente nullo non potevamo certamente lamentarci.
 
@@ -246,6 +246,43 @@ Cristina - con l’aiuto di Michele - organizzava i corsi del sabato; quando c�
 - I mercatini vendo/scambio
 - Vari forum di discussione ad argomento libero - ad esempio di politica, di relazioni affettive, di supporto tecnico su argomenti interessanti, scacchi e go, ecc. una lista si trova 
 
+### Un giro con le schermate
+
+Facciamo allora un giro, partendo da quello che si vedeva dopo il login con il client grafico: il menu principale di sistema.
+
+![Il menu principale di Pangea](images/main_home.png?raw=true "Il menu principale di sistema")
+
+Nella prima versione, al posto di questa schermata c'era la mappa della provincia di Varese disegnata da Sara: l'idea era di caratterizzare geograficamente gruppi di utenti che vivevano in posti diversi. Ben presto abbiamo preferito una soluzione più semplice, e la mappa ha lasciato il posto a questa pagina. Era un ipermedia personalizzato, realizzato con gli strumenti di WorldGroup: si comportava come una pagina web, con le sue icone da cliccare, anche se naturalmente non era un vero browser.
+
+Nella colonna di sinistra c'erano i contenuti, cioè le cose che facevano Pangea:
+
+- **Le novità su Pangea**, in alto a sinistra, era una finestrella scorrevole di annunci; cliccando su una riga si apriva l'articolo corrispondente.
+- **Discussioni** portava ai forum.
+- **Corso** spiegava come partecipare al corso del sabato.
+- **Associazioni** ed **Enti** aprivano, ciascuno, una pagina con l'elenco di chi era presente, e da lì si arrivava alle loro pagine informative ed ai relativi forum.
+- **Commerciale** e **Mercatino** funzionavano allo stesso modo: la prima per le attività commerciali, il secondo per il vendo/scambio tra utenti.
+- **Amici di Pangea** aveva l'icona del Finder del Mac. Non avevamo nessun Mac e non sapevamo nemmeno cosa fosse: probabilmente ci piaceva la faccina.
+
+Nella colonna di destra c'erano invece gli strumenti personali:
+
+- **E-mail** per la posta, e **Files** per le aree da cui scaricare i programmi.
+- **Account Edit** per modificare il proprio profilo.
+- **Internet** era una spiegazione di come usare la posta Internet.
+- **Chi è?** mostrava l'elenco degli utenti che avevano scelto di pubblicare qualche informazione su di sé.
+- **Teleconferenza** apriva la chat multiutente.
+
+In basso c'era il sondaggio del mese - più o meno ogni mese ne facevamo uno su temi di interesse locale - con il risultato di quello precedente, ed il collegamento al sito web del Comune di Varese. Al centro, sotto la foto di Villa Mirabello?, c'erano due bottoni per la posta e per chiamare il SysOp.
+
+Per chi non usava il client grafico, o voleva un'esperienza più leggera, c'era l'accesso a carattere:
+
+![Il menu a carattere, via Telnet](images/access_via_telnet.png?raw=true "Accesso via Telnet")
+
+Il layout era quello classico delle MajorBBS, tradotto in italiano per essere meno intimidatorio per i nostri utenti. Le funzioni erano sostanzialmente parallele a quelle della home page grafica: teleconferenze, forum, posta, librerie di file, dati personali, questionari, chi è. In più c'erano due voci che nel client grafico non servivano: la **C**, che consentiva di scaricare direttamente il client per Windows - l'idea era infatti che gli utenti Windows usassero quello - e la **O**, che consentiva di scaricarsi in formato **QWK** il pacchetto della propria posta per leggerla con un off-line reader.
+
+Il meccanismo era questo: ci si collegava per pochi minuti, si scaricavano le novità, ci si scollegava, e con calma a casa si leggeva e si componevano le risposte; alla connessione successiva si caricavano i messaggi scritti e si scaricavano quelli nuovi. Era perfetto per la posta e per i forum, ed era il motivo per cui le bollette telefoniche degli utenti restavano ragionevoli.
+
+In teoria si poteva arrivare a questa schermata anche via Telnet da Internet, ma in pratica nessuno lo faceva: tutti si collegavano direttamente via modem.
+
 ### Le mailing-list
 
 Un servizio parallelo offerto da Pangea era quello di offrire la gestione di mailing list, ovvero gruppi di discussione via e-mail, per alcune associazioni o utenti interessati.
@@ -275,7 +312,21 @@ Versioni:
 
 ## Dietro le quinte
 
-- 2 linee + ISDN
+### Il collegamento fisico
+
+La nostra connessione con il resto del mondo era una borchia ISDN. Questa tecnologia offriva due canali analogici e due canali digitali da 64k l'uno (oppure un unico canale da 128k), che in un mondo senza DSL non era poi così male.
+
+Alle due uscite analogiche erano collegati due modem, a loro volta collegati a una scheda seriale all'interno del server WorldGroup. Quando un utente chiamava, squillava una delle due linee e la chiamata veniva instradata direttamente alla BBS.
+
+Alla porta digitale era collegato un modem ISDN, mi pare della Zyxel, e questo era collegato al blunzer, la macchina Linux che avevamo in sede. Il nome l'avevo preso da un libro di Rudy Rucker, dove un "blunzer" è un oggetto indefinito di cui nessuno sa bene cosa sia - il che mi sembrava adatto a una macchina che faceva un po' di tutto. Il blunzer non rispondeva mai al telefono: faceva solo le chiamate in uscita.
+
+### Il pannello di amministrazione
+
+Il pulsante **SysOp** del menu principale dava accesso al pannello di amministrazione remoto del sistema. Era in sostanza il pannello DOS che si vedeva fisicamente sul server, riprodotto sul client: non credo si potesse fare tutto, ma si potevano consultare diverse informazioni sul server e fare alcune operazioni.
+
+![Il pannello di amministrazione (a sinistra) con un utente collegato (a destra)](images/side-by-side.png?raw=true "Pannello di amministrazione e client")
+
+Nella schermata, scattata mentre sono collegato con il client, la parte **Users** del pannello è DOS più classico. Le righe sono i canali: quelli licenziati erano cinque: la sessione locale più quattro canali. Due erano legati ai modem e due erano connessi fisicamente in sede, per cui potevamo, volendo, fare una chat per cinque persone. I canali TCP/IP, qui "ready...", erano quelli per l'accesso via Telnet.
 
 ### WorldGroup
 
@@ -284,11 +335,25 @@ Versioni:
 
 ### Email
 
+La posta funzionava così. Due o tre volte al giorno, probabilmente nelle fasce a tariffa ridotta, il blunzer telefonava a SkyLink. Una volta connesso, dall'altra parte il sistema lo riconosceva e iniziava a consegnare la posta del dominio `pangea.va.it`: il nostro relay era, se ricordo bene, `venere.inet.it`, e fino a quel momento teneva da parte tutto quello che arrivava per noi. Il relay la inoltrava in SMTP al blunzer, che a sua volta la girava, sempre in SMTP, al server di Pangea. Oggi sembra banale, ma allora le due macchine erano in rete tra loro con TCP/IP, cosa tutt'altro che comune.
+
+In uscita, il blunzer faceva da relay SMTP per Pangea: prendeva la posta e la teneva ferma nella coda di Sendmail; alla chiamata successiva, la coda ripartiva ed i messaggi arrivavano finalmente a destinazione. Tutto questo era possibile perché WorldGroup aveva un'interfaccia SMTP, in grado sia di produrre sia di ricevere posta in quel formato.
+
+Le due macchine erano collegate anche da un disco Samba, montato in qualche modo sul server di Pangea, che usavamo per i backup: venivano scritti dal server su questo disco, che fisicamente stava sulla macchina Linux.
+
 ### Mailing list
 
 ### Il sito web
 
 ### Interconnessioni: MHSFIDO e RecSanDo
+
+Pangea era un sistema isolato, ma noi venivamo dal mondo FidoNet, dove oltre allo scambio di posta - che per noi non era essenziale, perché avevamo già la posta SMTP e potevamo raggiungere gli altri sistemi in quel modo - c'era soprattutto lo scambio delle echomail, ovvero dei contenuti dei forum. In un forum Fido solo una parte dei messaggi era locale, la maggior parte arrivava da altri sistemi, e questo mi sembrava il pezzo che mancava a Pangea.
+
+WorldGroup non aveva, per quel che ne sapevo, un'interfaccia FidoNet, ma usava come tecnologia di messaggistica un sistema chiamato MHS, che in pratica era un formato di testo appena formattato. Aveva una directory in ingresso ed una in uscita: quando si scriveva un file nella directory di ingresso, WorldGroup lo prendeva e lo caricava nei suoi forum; quando c'era un messaggio in uscita destinato a MHS, veniva scritto nella directory di uscita. Questa era una cartella condivisa, per cui poteva essere letta dalla macchina Linux.
+
+Su questa avevo scritto un programma che si chiamava **mhs2fido** (per trovare una maniera di scambiare messaggi con la tecnologia Fido): impacchettava i messaggi MHS, li trasformava in testo e li spediva - credo dentro a delle e-mail - al server di RecSanDo, la rete civica di San Donato, che aveva una configurazione simile e con cui avevamo fatto qualche prova di scambio. In realtà non è mai andato in produzione, né da parte nostra né, credo, da parte loro, ma era una cosa interessante per scambiare messaggi tra più BBS.
+
+La prima versione era in C, se non ricordo male; poi ne avevo fatta una in Perl, ma non ricordo se sia mai stata usata. Credo fosse il 1998-99, mentre facevo il servizio civile. Chissà se esiste ancora.
 
 
 ## La fine
