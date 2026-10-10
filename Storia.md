@@ -186,7 +186,7 @@ Alla fine Pangea ha avuto circa trecento utenti registrati in totale, un numero 
 
 ![Utenti totali per trimestre](images/storia/utenti_stock.png?raw=true "Utenti totali")
 
-Per classe, quasi due terzi (190, il 64%) erano utenti normali (Clase `U_NP`); poi 47 demo (15%), 24 Amici di Pangea (8%), 16 associazioni e 16 staff (5% ciascuno).
+Per classe, quasi due terzi (190, il 64%) erano utenti normali (Classe `U_NP`); poi 47 demo (15%), 24 Amici di Pangea (8%), 16 associazioni e 16 staff (5% ciascuno).
 
 ![Utenti per classe](images/storia/utenti_per_classe.png?raw=true "Utenti per classe")
 
@@ -283,7 +283,7 @@ Il layout era quello classico delle MajorBBS, tradotto in italiano per essere me
 
 Il meccanismo era questo: ci si collegava per pochi minuti, si scaricavano le novità (posta e forum di interesse), ci si scollegava, e con calma a casa si leggeva e si componevano le risposte; alla connessione successiva si caricavano i messaggi scritti e si scaricavano quelli nuovi. Era perfetto per la posta e per i forum, e ci consentiva di gestire molti utenti con poche linee telefoniche.
 
-In teoria si poteva arrivare a questa schermata anche via Telnet (se fossimo stati connesi ad Internet) da uno degli altri PC presenti in ufficio.
+In teoria si poteva arrivare a questa schermata anche via Telnet (se fossimo stati connessi ad Internet) da uno degli altri PC presenti in ufficio.
 
 ### Le mailing-list
 
@@ -328,7 +328,7 @@ Il pulsante **SysOp** del menu principale dava accesso al pannello di amministra
 
 ![Il pannello di amministrazione (a sinistra) con un utente collegato (a destra)](images/side-by-side.png?raw=true "Pannello di amministrazione e client")
 
-Nella schermata, scattata mentre sono collegato con il client, la parte **Users** del pannello è DOS più classico. Le righe sono i canali: quelli licenziati erano cinque: la sessione locale più quattro canali. Due erano legati ai modem e due erano connessi fisicamente in sede, per cui potevamo, volendo, fare una chat per cinque persone. Nella schermata i canali appaiono tutti come TCP/IP perchè è stata presa dalla versione restaurata che non aveva più schede seriali; in origine il secondo e terzo canale erano seriali.
+Nella schermata, scattata mentre sono collegato con il client, la parte **Users** del pannello è DOS più classico. Le righe sono i canali: quelli licenziati erano cinque, ovvero la sessione locale più quattro canali. Due erano legati ai modem e due erano connessi fisicamente in sede, per cui potevamo, volendo, fare una chat per cinque persone. Nella schermata i canali appaiono tutti come TCP/IP perché è stata presa dalla versione restaurata che non aveva più schede seriali; in origine il secondo e terzo canale erano seriali.
 
 ### WorldGroup
 
@@ -338,7 +338,7 @@ L'infrastruttura di WorldGroup era il server basato su The Major BBS, più alcun
 
 Il progetto in realtà era già morto quando siamo partiti, ma l'abbiamo scoperto molto dopo: la società che lo produceva non navigava in buone acque ed il fondatore si era appena suicidato, per cui non ci sono stati ulteriori sviluppi importanti (vedi https://wiki.mbbsemu.com/doku.php?id=mbbsemu:history:majorbbs ).
 
-All'epoca un prodotto tutto in uno sembrava una buona idea: si installava un oggetto, ci si cliccava sopra e funzionava. Le alternative erano molto più complesse: ai tempi di Windows 3.1 e Windows 95 installarsi il kit di connessione a Internet (il Trumpet Winsock o simili), crearsi a mano le connessioni, installare il browser e poi il programma di posta era al di fuori di quello che un utente non molto sgamato poteva fare (lo so bene, perchè negli anni dell'università arrotondavo installando connessioni internet a privati).
+All'epoca un prodotto tutto in uno sembrava una buona idea: si installava un oggetto, ci si cliccava sopra e funzionava. Le alternative erano molto più complesse: ai tempi di Windows 3.1 e Windows 95 installarsi il kit di connessione a Internet (il Trumpet Winsock o simili), crearsi a mano le connessioni, installare il browser e poi il programma di posta era al di fuori di quello che un utente non molto sgamato poteva fare (lo so bene, perché negli anni dell'università arrotondavo installando connessioni internet a privati).
 
 Quello che ci era piaciuto molto era poi la possibilità di collegarsi sia da terminale, come con una BBS normale, sia con il client grafico, con l'off-line reader: si scaricava quello che interessava, si chiudeva la telefonata, si lavorava in locale e ci si riconnetteva per qualche minuto per rimandare indietro le risposte. Così potevamo avere molti più utenti con pochissime linee telefoniche. Se ciascuno fosse rimasto attaccato per un'ora, come in una connessione a Internet, con due linee non saremmo andati lontano.
 
@@ -382,9 +382,9 @@ Pangea era un sistema isolato, ma noi venivamo dal mondo FidoNet, dove oltre all
 
 WorldGroup non aveva, per quel che ne sapevo, un'interfaccia FidoNet, ma usava come tecnologia di messaggistica un sistema chiamato MHS, che in pratica era un formato di testo appena formattato. Aveva una directory in ingresso ed una in uscita: quando si scriveva un file nella directory di ingresso, WorldGroup lo prendeva e lo caricava come messaggio locale; quando c'era un messaggio in uscita destinato a MHS, veniva scritto nella directory di uscita. Questa era una cartella condivisa, per cui poteva essere letta dalla macchina Linux. Era pensato per l'email, ma si poteva impostare anche per i forum, come abbiamo scoperto con un po' di sperimentazione.
 
-Su questa avevo scritto un programma che si chiamava **mhs2fido** (per trovare una maniera di scambiare messaggi con la tecnologia Fido): impacchettava i messaggi MHS, li trasformava in testo e li spediva - credo dentro a delle e-mail - al server di RecSanDo, la rete civica di San Donato, che aveva una configurazione simile e con cui avevamo fatto qualche prova di scambio. In realtà non è mai andato in produzione, come feature pubbica, ma era una cosa interessante per scambiare messaggi tra più BBS.
+Su questa avevo scritto un programma che si chiamava **mhs2fido** (per trovare una maniera di scambiare messaggi con la tecnologia Fido): impacchettava i messaggi MHS, li trasformava in testo e li spediva - credo dentro a delle e-mail - al server di RecSanDo, la rete civica di San Donato, che aveva una configurazione simile e con cui avevamo fatto qualche prova di scambio. In realtà non è mai andato in produzione, come funzionalità pubblica, ma era una cosa interessante per scambiare messaggi tra più BBS.
 
-La prima versione era in C, scritta con il compilare DJGPP; poi ne avevo fatta una in Perl, ma non ricordo se sia mai stata usata. Credo fosse il 1997, mentre facevo il servizio civile. 
+La prima versione era in C, scritta con il compilatore DJGPP; poi ne avevo fatta una in Perl, ma non ricordo se sia mai stata usata. Credo fosse il 1997, mentre facevo il servizio civile. 
 
 
 ## La fine

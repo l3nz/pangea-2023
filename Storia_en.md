@@ -7,9 +7,14 @@
 
 
 
+Revisions:
+
+- 261010
 - 241229
 
-A long time ago, in a galaxy far, far away....
+
+
+A long time ago, in a galaxy far, far away... there was a flyer that said:
 
 
 _Pangea is an initiative that began in July 1996 with the aim of building and running the first true Civic Network of Varese, a real virtual square where the people, associations and institutions that live and work in Varese and its province can meet. Its purpose is to simplify and encourage human relations and collaboration through the intelligent and innovative use of information technology. The goal, in fact, is to improve the quality of social life and to strengthen the sense of belonging to the local community._
@@ -107,7 +112,7 @@ The first registered users (6/8/96) were Cjk, Ghost, Lenz and Gab; on the 7th Lu
 
 ### The Venue
 
-Pangea was on the first floor at the CoopUF, next to the projection room and a photographer's studio. There wasn't much: a couple of computers on a table (the Pangea server and an assembled Vobis with Windows 3.11), the blunzer on the floor, the ISDN socket on the wall behind us. The room was dusty, full of cigarette ash and decidedly not too clean. Then there was that time the server's CPU fan had stuck and we had fixed it with a few drops of oil asked for from the bar downstairs: at moments of peak load, a smell of French fries spread through the room. 
+Pangea was on the first floor at the CoopUF, next to the projection room and a photographer's studio. There wasn't much: a couple of computers on a table (the Pangea server and an assembled Vobis with Windows 3.11), the blunzer (the Linux PC that acted as the mail and backup gateway, whose name comes from a book by Rudy Rucker, perhaps "The Hacker and the Ants") on the floor, the ISDN socket on the wall behind us. The room was dusty, full of cigarette ash and decidedly not too clean. Then there was that time the server's CPU fan had stuck and we had fixed it with a few drops of oil asked for from the bar downstairs: at moments of peak load, a smell of French fries spread through the room. 
 
 The room was shared with other associations that used it occasionally; we never had problems with the other users. Every now and then there was a drunk on the stairs, or Felix wanting to scrounge a cigarette, but given the essentially zero cost we certainly couldn't complain.
 
@@ -165,28 +170,27 @@ The Nanni Moretti evening
 
 ## The Pangeanti
 
+Since at registration we asked for the date of birth - and I think almost everyone entered it correctly - we can say something precise about who the users were. The chart below is by age bracket: 61% were between 20 and 29 and 75% between 20 and 39, more or less the same population that was using the Internet at the time: mostly university students and young workers.
 
+![Age of users at registration](images/storia/utenti_per_eta.png?raw=true "Age of users")
 
+Interestingly, about a fifth of the users were women (21%, 61 out of the 281 whose sex we know). For the time, and especially coming from the BBS world, these were very high numbers: in the BBSes the female presence was extremely limited.
 
+![Sex of users](images/storia/utenti_per_sesso.png?raw=true "Sex of users")
 
+As for growth, the quarters with the most activations were the third of 1996, when we opened and started to appear in the newspapers (38 new users), and above all the second of 1997 (64), with a peak in July (23 in a single month). In 1998 the numbers were lower but generally growing; at the beginning of 1999 they dropped, probably because interest had somewhat waned.
 
+![New users per quarter](images/storia/utenti_per_quarter.png?raw=true "New users per quarter")
 
-![AltText](images/storia/utenti_per_classe.png?raw=true "...")
+![New users per month](images/storia/utenti_per_mese.png?raw=true "New users per month")
 
+In the end Pangea had about three hundred registered users in total, a number that is not much today, but for those days, and for Varese, it was not small.
 
-![AltText](images/storia/utenti_per_eta.png?raw=true "...")
+![Total users per quarter](images/storia/utenti_stock.png?raw=true "Total users")
 
+By class, almost two thirds (190, 64%) were normal users (class `U_NP`); then 47 demo (15%), 24 Friends of Pangea (8%), 16 associations and 16 staff (5% each).
 
-![AltText](images/storia/utenti_per_mese.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_per_quarter.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_per_sesso.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_stock.png?raw=true "...")
+![Users per class](images/storia/utenti_per_classe.png?raw=true "Users per class")
 
 
 ### Institutions and Associations
@@ -203,7 +207,7 @@ https://web.archive.org/web/19991118095626/http://www.pangea.va.it/pangea/sondag
 
 ### How to Connect
 
-For the more advanced, or those already experienced in telematics, connecting to Pangea worked like a normal BBS. You dialed the number with the modem and, thanks to a terminal emulator, you could interact with the BBS on the other end. The BBS was fully functional in character mode: practically all the content was usable in text format as well. If I remember rightly, there was even the possibility of exchanging mail packets in QWK off-line reader mode.
+For the more advanced, or those already experienced in telematics, connecting to Pangea worked like a normal BBS. You dialed the number with the modem and, thanks to a terminal emulator, you could interact with the BBS on the other end. The BBS was fully functional in character mode: practically all the content was usable in text format as well, with the possibility of exchanging mail/forum packets in QWK off-line reader mode.
 
 The most interesting mode, though, was the one that used the graphical client. On the first connection, it was possible to download an ad-hoc client, so that you could then connect directly in graphical mode - you didn't even need to register, it was enough to log in with the user `client`. The client worked on Windows 3.1 and on the first edition of Windows 95; it did not work on Windows 98, however.
 
@@ -246,6 +250,43 @@ Cristina - with Michele's help - organized the Saturday courses; when there was 
 - The buy/sell/swap marketplaces
 - Various discussion forums on free topics - for example politics, romantic relationships, technical support on interesting subjects, chess and go, etc. a list can be found 
 
+### A Tour of the Screens
+
+So let's take a tour, starting from what you saw after logging in with the graphical client: the main system menu.
+
+![Pangea's main menu](images/main_home.png?raw=true "The main system menu")
+
+In the first version, instead of this screen there was the map of the province of Varese drawn by Sara: the idea was to characterize geographically groups of users who lived in different places. Before long we preferred a simpler solution, and the map gave way to this page. It was a custom hypermedia page, built with WorldGroup's tools: it behaved like a web page, with its clickable icons, even though of course it was not a real browser.
+
+The left-hand column held the content, that is, the things that made up Pangea:
+
+- **Le novità su Pangea** (News on Pangea), top left, was a small scrolling window of announcements; clicking a line opened the corresponding article.
+- **Discussioni** (Discussions) led to the forums.
+- **Corso** (Course) explained how to take part in the Saturday course.
+- **Associazioni** (Associations) and **Enti** (Institutions) each opened a page listing who was present, and from there you reached their information pages and the related forums.
+- **Commerciale** (Commercial) and **Mercatino** (Marketplace) worked the same way: the first for businesses, the second for buy/sell/swap among users.
+- **Amici di Pangea** (Friends of Pangea) had the Mac Finder icon. We had no Mac and didn't even know what it was: we probably just liked the little face.
+
+The right-hand column held the personal tools:
+
+- **E-mail** for mail, and **Files** for the areas from which to download programs.
+- **Account Edit** to edit your own profile.
+- **Internet** was an explanation of how to use Internet mail.
+- **Chi è?** (Who is...?) showed the list of users who had chosen to publish some information about themselves.
+- **Teleconferenza** (Teleconference) opened the multi-user chat.
+
+At the bottom there was the poll of the month - more or less every month we ran one on topics of local interest - with the result of the previous one, and the link to the web site of the Municipality of Varese. In the middle, under the photo of Villa Mirabello, there were two buttons available only to SysOps: one for mail and one to administer the system remotely (e.g. approve new users or create new forums).
+
+For those who didn't use the graphical client, or wanted a lighter experience, there was character-mode access:
+
+![The character-mode menu, via Telnet](images/access_via_telnet.png?raw=true "Access via Telnet")
+
+The layout was the classic one of MajorBBS, translated into Italian to be less intimidating for our users. The functions were essentially parallel to those of the graphical home page: teleconferences, forums, mail, file libraries, personal data, questionnaires, who is. In addition there were two items that weren't needed in the graphical client: `C`, which let you download the Windows client directly - the idea being that Windows users would use that - and `O`, which let you download your mail package in QWK format to read it with an off-line reader.
+
+The mechanism was this: you connected for a few minutes, downloaded the news (mail and the forums you were interested in), disconnected, and calmly at home you read and composed your replies; on the next connection you uploaded the messages you had written and downloaded the new ones. It was perfect for mail and for forums, and it let us handle many users with few phone lines.
+
+In theory you could also reach this screen via Telnet (had we been connected to the Internet) from one of the other PCs in the office.
+
 ### The Mailing Lists
 
 A parallel service offered by Pangea was the management of mailing lists, that is, e-mail discussion groups, for associations or interested users.
@@ -275,20 +316,77 @@ Versions:
 
 ## Behind the Scenes
 
-- 2 lines + ISDN
+### The Physical Connection
+
+Our connection to the rest of the world was an ISDN socket. This technology offered two analog channels and two digital channels of 64k each (or a single 128k channel), which in a world without DSL wasn't all that bad.
+
+Two 28.8k modems were attached to the two analog outputs, and these were in turn connected to a serial card inside the WorldGroup server. When a user called, one of the two lines would ring and the call was routed straight to the BBS.
+
+A Zyxel ISDN modem was attached to the digital port, and this was connected to the blunzer, the Linux machine we had at the venue. I had taken the name from a book by Rudy Rucker, in which a "blunzer" is an indefinite object that nobody quite knows what it is: which seemed fitting for a machine that did a bit of everything. The blunzer never answered the phone: it only made outgoing calls.
+
+### The Administration Panel
+
+The **SysOp** button on the main menu gave access to the system's remote administration panel. It was essentially the DOS panel that you could see physically on the server, reproduced on the client: I don't think you could do everything you could do on DOS, but you could look at a lot of information about the server and do some operations.
+
+![The administration panel (left) with a user logged in (right)](images/side-by-side.png?raw=true "Administration panel and client")
+
+In the screenshot, taken while I'm connected with the client, the **Users** part of the panel is classic DOS. The rows are the channels: the licensed ones were five: the local session plus four channels. Two were tied to the modems and two were physically connected at the venue, so we could, if we wanted, hold a chat for five people. In the screenshot the channels all appear as TCP/IP because it was taken from the restored version, which no longer had serial cards; originally the second and third channels were serial.
 
 ### WorldGroup
 
+The software that ran Pangea was WorldGroup 2.0, an extension of The Major BBS, a commercial American BBS package. The Major BBS was famous because it could handle, on very underpowered machines such as a 286, hundreds of serial interfaces: you could create BBSes with a great many incoming lines, with lots of people chatting and doing things in parallel. In Italy I don't think there were ever BBSes of that size, also because telephone access cost too much.
+
+WorldGroup's infrastructure was the server based on The Major BBS, plus some custom modules, and a graphical client that multiplexed the connections to these modules (I don't know whether it used TCP/IP or what protocol it used). The mail module, the download module and the chat module could therefore all work together, while the user saw a single graphical environment.
+
+The project was in fact already dead when we started, but we found that out much later: the company that made it was not in good shape and its founder had just committed suicide, so there were no further major developments (see https://wiki.mbbsemu.com/doku.php?id=mbbsemu:history:majorbbs ).
+
+At the time an all-in-one product seemed like a good idea: you installed one thing, clicked on it, and it worked. The alternatives were much more complicated: in the days of Windows 3.1 and Windows 95, installing the Internet connection kit (Trumpet Winsock or the like), setting up the connections by hand, installing the browser and then the mail program was beyond what a not-very-savvy user could do (I know this well, because during my university years I made some extra money installing Internet connections for private customers).
+
+What we liked a lot, besides, was the ability to connect either from a terminal, as with a normal BBS, or with the graphical client, with the off-line reader: you downloaded what interested you, hung up, worked locally and reconnected for a few minutes to send back your replies. This way we could have many more users with very few phone lines. If everyone had stayed connected for an hour, as with an Internet connection, with two lines we wouldn't have gotten far.
+
+The problem with WorldGroup was that it was a DOS program in the worst sense of the word - an 8.3 file system and single-user access from the keyboard. For the time it used a rather advanced solution: instead of storing data as a set of files in a directory, as many mail programs in the FidoNet world did, it used a database, Btrieve, very efficient for handling good quantities of messages, because it had indexes and worked in a more structured way. The limitation was that reading that data was essentially impossible without the schema, which was compiled into the program: the files on disk holding the messages, the user list and the logs were opaque. Backups were made by compressing them, but without understanding what was inside, hoping never to have to restore them and discover that a piece was missing and nothing worked any more.
+
+On the server there was a blue screen, which you worked with function keys and arrows. I must say that, for a DOS program, it was very powerful and relatively stable: it rarely crashed, and this despite the thunderstorms and the fact that we didn't even have a UPS. All our material survived everything; maybe a modem broke at some point, but overall everything went well.
+
+Being DOS, it was not multitasking: the machine did only that. For maintenance operations, at a certain hour of the night the program was shut down through some internal scripts: Pangea left the BBS part and ran the maintenance part, which deleted messages older than a certain age. If I remember rightly, in the forums we kept 15 or 30 days of content and for e-mail maybe 60 or 90, a rather generous allowance for a BBS of the time. It was a compromise between disk space and the handling of large amounts of mail, which we feared would be problematic for the server, especially if we grew.
+
+A good part of Pangea's traffic was in any case the private messages and e-mails that users exchanged among themselves or with other people: at the time free mailboxes were few, and offering one was a big step forward.
+
 ### The User Classes
 
+Users were divided into classes, each with its own profile and keys, which allowed them to do and see different things:
+
+- whoever registered on their own went into the `DEMO` class;
+- after sending us their documents or dropping by to see us, they became a normal user (`NP`);
+- whoever decided to join the association, with a very small contribution, became an `AMICO` (friend) of Pangea: they had a slightly longer connection time and, quite interestingly, could send and receive attachments in mail to and from the Internet;
+- whoever decided to take part in the life of Pangea joined the `STAFF`;
+- finally, there was a class for the `ASSOCIAZIONI` (associations) present on the system.
+
+Depending on the class, the amount of time available also changed: after a while the system kicked you out, to prevent anyone from occupying all the lines. The forums you had access to changed as well.
 
 ### Email
 
+Two or three times a day, probably in the reduced-rate hours, the blunzer called SkyLink over ISDN. Once connected, the system on the other end recognized it and started to forward the mail for the `pangea.va.it` domain: our relay was, if I remember rightly, `venere.inet.it`, which until that moment held on to everything that arrived for us. The relay passed it on via SMTP to the blunzer, which in turn passed it on, again via SMTP, to the Pangea server. Today it seems trivial, but back then the two machines were networked together over TCP/IP, which was anything but common.
+
+On the way out, the blunzer in turn acted as the SMTP relay for Pangea: it took the mail and held it in the Sendmail queue; at the next call, the queue restarted and the messages finally reached their destination. All this was possible because WorldGroup had an SMTP interface, able both to produce and to receive mail in that format.
+
+The two machines were also linked by a Samba disk, mounted somehow on the Pangea server, which we used for backups: they were written by the server onto this disk, which physically sat on the Linux machine.
+
 ### Mailing lists
+
+The mailing lists were also handled by the blunzer. We used a program whose name I don't remember, which let us have lists on the `pangea.va.it` domain; I believe they ran with Sendmail on the Linux server. Sending took place during the mail exchange: when the blunzer connected to fetch the mail, it also processed and sent out the lists' messages. There were several, for various associations and groups of users.
 
 ### The Web Site
 
 ### Interconnections: MHSFIDO and RecSanDo
+
+Pangea was an isolated system, but we came from the FidoNet world, where besides the exchange of mail - which for us was not essential, because we already had SMTP mail and could reach other systems that way - there was above all the exchange of echomail, that is, forum content. In a Fido forum only part of the messages were local, most arrived from other systems, and this seemed to me the piece that Pangea was missing.
+
+WorldGroup did not have, as far as I knew, a FidoNet interface, but used as its messaging technology a system called MHS, which was basically a lightly formatted text format. It had an inbound directory and an outbound directory: when you wrote a file into the inbound directory, WorldGroup picked it up and loaded it as a local message; when there was an outgoing message addressed to MHS, it was written to the outbound directory. This was a shared folder, so it could be read by the Linux machine. It was designed for e-mail, but it could also be set up for forums, as we discovered with a bit of experimentation.
+
+On top of this I had written a program called **mhs2fido** (to find a way to exchange messages with Fido technology): it packaged the MHS messages, turned them into text and sent them - I think inside e-mails - to the RecSanDo server, the civic network of San Donato, which had a similar setup and with which we had run a few exchange tests. In fact it never went into production as a public feature, but it was an interesting thing for exchanging messages among multiple BBSes.
+
+The first version was in C, written with the DJGPP compiler; then I made one in Perl, but I don't remember whether it was ever used. I think it was 1997, while I was doing my civilian service. 
 
 
 ## The End
@@ -298,11 +396,24 @@ The last phone calls to Pangea were made on August 3, 1999, almost exactly three
 
 ### The World Changes
 
+What went well and what went badly? First of all, between 1996 and 1999 the world changed. In 1996 there were the first Internet accesses and most people tied to the world of telematics still lived in the BBSes. In 1999 the Internet was, in quotation marks, in common use: many more people had it and there were many more ways to get access.
+
+What had been a strength for us at the beginning, namely an all-in-one system that worked without having to set up an Internet connection and without paying for a subscription, was in the end no longer a positive differentiator. People would have Internet access anyway: often the reason for buying a computer and a modem was precisely that.
+
 ### Internet Access
+
+Bringing Pangea onto the Internet was not an easy step. We had considered connecting with a dedicated line and becoming a real Internet node, but we never found a way to do it, because the costs were too high. Those who could have been sponsors - for example the University of Varese, which was coming into being in those years - were not interested.
+
+At the beginning the idea was to open Pangea as the first node in Varese, and then open other nodes (POPs) in other parts of the province and link them all together. But this too cost money, and we had none: all the work was amateur.
 
 ### WorldGroup
 
+The WorldGroup software had seen no further development and was not directly compatible with the new world of the Internet, so the idea of bringing Pangea onto the Internet was not easy to carry out. I know that WorldGroup later got an HTML interface, but it came much later.
 
+### Why It Ended
 
-## Acknowledgments
+I think Pangea's main problem was that we had no budget: our income was barely enough to pay the phone bills, and we didn't have the ability to raise adequate funds for a project of any breadth. We also didn't have an offer for institutions and associations that was convincing enough: maybe they didn't know what we were talking about, maybe we weren't able to explain it. Funding was always very low, and we never managed to get out of that rut.
 
+In hindsight I also believe that when something costs nothing, it is worth nothing: if something is given to you for free, you say "who cares" and give it no value at all.
+
+Finally, there was a generational factor: the founders of Pangea were finishing university and each was beginning to have their own adult life, so interest in the group had waned.
