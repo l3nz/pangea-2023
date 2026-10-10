@@ -183,7 +183,7 @@ Alla fine Pangea ha avuto circa trecento utenti registrati in totale, un numero 
 
 ![Utenti totali per trimestre](images/storia/utenti_stock.png?raw=true "Utenti totali")
 
-Per classe, quasi due terzi (190, il 64%) erano utenti normali; poi 47 demo (15%), 24 amici (8%), 16 associazioni e 16 staff (5% ciascuno).
+Per classe, quasi due terzi (190, il 64%) erano utenti normali (Clase `U_NP`); poi 47 demo (15%), 24 Amici di Pangea (8%), 16 associazioni e 16 staff (5% ciascuno).
 
 ![Utenti per classe](images/storia/utenti_per_classe.png?raw=true "Utenti per classe")
 
@@ -202,7 +202,7 @@ https://web.archive.org/web/19991118095626/http://www.pangea.va.it/pangea/sondag
 
 ### Come connettersi
 
-Per i più avanzati, o chi era già esperto di telematica, la connessione a Pangea avveniva come con una normale BBS. Si componeva il numero con il modem e grazie a un emulatore di terminale si poteva interagire con la BBS dall’altra parte. La BBS era pienamente funzionale in modalità a carattere: praticamente tutto il contenuto era fruibile anche in formato testuale. Se non ricordo male, c’era pure la possibilità di scambiare i pacchetti di posta in modalità off-line reader QWK.
+Per i più avanzati, o chi era già esperto di telematica, la connessione a Pangea avveniva come con una normale BBS. Si componeva il numero con il modem e grazie a un emulatore di terminale si poteva interagire con la BBS dall’altra parte. La BBS era pienamente funzionale in modalità a carattere: praticamente tutto il contenuto era fruibile anche in formato testuale, con la possibilità di scambiare i pacchetti di posta/forum in modalità off-line reader QWK.
 
 La modalità più interessante però era quella che utilizzava il client grafico. Alla prima connessione, era possibile scaricare un client ad-hoc, di modo da potersi poi connettere direttamente in modalità grafica - non era necessario nemmeno registrarsi, bastava fare il login con l'utente `client`. Il client funzionava per Windows 3.1 e per Windows 95 prima edizione; non funzionava però per Windows 98.
 
@@ -270,17 +270,17 @@ Nella colonna di destra c'erano invece gli strumenti personali:
 - **Chi è?** mostrava l'elenco degli utenti che avevano scelto di pubblicare qualche informazione su di sé.
 - **Teleconferenza** apriva la chat multiutente.
 
-In basso c'era il sondaggio del mese - più o meno ogni mese ne facevamo uno su temi di interesse locale - con il risultato di quello precedente, ed il collegamento al sito web del Comune di Varese. Al centro, sotto la foto di Villa Mirabello?, c'erano due bottoni per la posta e per chiamare il SysOp.
+In basso c'era il sondaggio del mese - più o meno ogni mese ne facevamo uno su temi di interesse locale - con il risultato di quello precedente, ed il collegamento al sito web del Comune di Varese. Al centro, sotto la foto di Villa Mirabello, c'erano due bottoni disponibili solo ai SysOp: per la posta e per amministrare il sistema da remoto (es. approvare nuovi utenti o creare nuovi forum).
 
 Per chi non usava il client grafico, o voleva un'esperienza più leggera, c'era l'accesso a carattere:
 
 ![Il menu a carattere, via Telnet](images/access_via_telnet.png?raw=true "Accesso via Telnet")
 
-Il layout era quello classico delle MajorBBS, tradotto in italiano per essere meno intimidatorio per i nostri utenti. Le funzioni erano sostanzialmente parallele a quelle della home page grafica: teleconferenze, forum, posta, librerie di file, dati personali, questionari, chi è. In più c'erano due voci che nel client grafico non servivano: la **C**, che consentiva di scaricare direttamente il client per Windows - l'idea era infatti che gli utenti Windows usassero quello - e la **O**, che consentiva di scaricarsi in formato **QWK** il pacchetto della propria posta per leggerla con un off-line reader.
+Il layout era quello classico delle MajorBBS, tradotto in italiano per essere meno intimidatorio per i nostri utenti. Le funzioni erano sostanzialmente parallele a quelle della home page grafica: teleconferenze, forum, posta, librerie di file, dati personali, questionari, chi è. In più c'erano due voci che nel client grafico non servivano: la `C`, che consentiva di scaricare direttamente il client per Windows - l'idea era infatti che gli utenti Windows usassero quello - e la `O`, che consentiva di scaricarsi in formato QWK il pacchetto della propria posta per leggerla con un off-line reader.
 
-Il meccanismo era questo: ci si collegava per pochi minuti, si scaricavano le novità, ci si scollegava, e con calma a casa si leggeva e si componevano le risposte; alla connessione successiva si caricavano i messaggi scritti e si scaricavano quelli nuovi. Era perfetto per la posta e per i forum, ed era il motivo per cui le bollette telefoniche degli utenti restavano ragionevoli.
+Il meccanismo era questo: ci si collegava per pochi minuti, si scaricavano le novità (posta e forum di interesse), ci si scollegava, e con calma a casa si leggeva e si componevano le risposte; alla connessione successiva si caricavano i messaggi scritti e si scaricavano quelli nuovi. Era perfetto per la posta e per i forum, e ci consentiva di gestire molti utenti con poche linee telefoniche.
 
-In teoria si poteva arrivare a questa schermata anche via Telnet da Internet, ma in pratica nessuno lo faceva: tutti si collegavano direttamente via modem.
+In teoria si poteva arrivare a questa schermata anche via Telnet (se fossimo stati connesi ad Internet) da uno degli altri PC presenti in ufficio.
 
 ### Le mailing-list
 
@@ -315,35 +315,35 @@ Versioni:
 
 La nostra connessione con il resto del mondo era una borchia ISDN. Questa tecnologia offriva due canali analogici e due canali digitali da 64k l'uno (oppure un unico canale da 128k), che in un mondo senza DSL non era poi così male.
 
-Alle due uscite analogiche erano collegati due modem, a loro volta collegati a una scheda seriale all'interno del server WorldGroup. Quando un utente chiamava, squillava una delle due linee e la chiamata veniva instradata direttamente alla BBS.
+Alle due uscite analogiche erano collegati due modem 28k8, a loro volta collegati a una scheda seriale all'interno del server WorldGroup. Quando un utente chiamava, squillava una delle due linee e la chiamata veniva instradata direttamente alla BBS.
 
-Alla porta digitale era collegato un modem ISDN, mi pare della Zyxel, e questo era collegato al blunzer, la macchina Linux che avevamo in sede. Il nome l'avevo preso da un libro di Rudy Rucker, dove un "blunzer" è un oggetto indefinito di cui nessuno sa bene cosa sia - il che mi sembrava adatto a una macchina che faceva un po' di tutto. Il blunzer non rispondeva mai al telefono: faceva solo le chiamate in uscita.
+Alla porta digitale era collegato un modem ISDN Zyxel, e questo era collegato al blunzer, la macchina Linux che avevamo in sede. Il nome l'avevo preso da un libro di Rudy Rucker, dove un "blunzer" è un oggetto indefinito di cui nessuno sa bene cosa sia: il che mi sembrava adatto a una macchina che faceva un po' di tutto. Il blunzer non rispondeva mai al telefono: faceva solo le chiamate in uscita.
 
 ### Il pannello di amministrazione
 
-Il pulsante **SysOp** del menu principale dava accesso al pannello di amministrazione remoto del sistema. Era in sostanza il pannello DOS che si vedeva fisicamente sul server, riprodotto sul client: non credo si potesse fare tutto, ma si potevano consultare diverse informazioni sul server e fare alcune operazioni.
+Il pulsante **SysOp** del menu principale dava accesso al pannello di amministrazione remoto del sistema. Era in sostanza il pannello DOS che si vedeva fisicamente sul server, riprodotto sul client: non credo si potesse fare tutto quello che si faceva su DOS, ma si potevano consultare diverse informazioni sul server e fare alcune operazioni.
 
 ![Il pannello di amministrazione (a sinistra) con un utente collegato (a destra)](images/side-by-side.png?raw=true "Pannello di amministrazione e client")
 
-Nella schermata, scattata mentre sono collegato con il client, la parte **Users** del pannello è DOS più classico. Le righe sono i canali: quelli licenziati erano cinque: la sessione locale più quattro canali. Due erano legati ai modem e due erano connessi fisicamente in sede, per cui potevamo, volendo, fare una chat per cinque persone. I canali TCP/IP, qui "ready...", erano quelli per l'accesso via Telnet.
+Nella schermata, scattata mentre sono collegato con il client, la parte **Users** del pannello è DOS più classico. Le righe sono i canali: quelli licenziati erano cinque: la sessione locale più quattro canali. Due erano legati ai modem e due erano connessi fisicamente in sede, per cui potevamo, volendo, fare una chat per cinque persone. Nella schermata i canali appaiono tutti come TCP/IP perchè è stata presa dalla versione restaurata che non aveva più schede seriali; in origine il secondo e terzo canale erano seriali.
 
 ### WorldGroup
 
-Il software che faceva funzionare Pangea era WorldGroup, un'estensione di The Major BBS, un software commerciale americano per BBS. The Major BBS era famoso perché riusciva a gestire, su macchine molto poco potenti, centinaia di schede seriali: si potevano creare BBS con moltissime linee in ingresso, con tanta gente che chattava e faceva cose in parallelo. In Italia penso che BBS di queste dimensioni non ce ne siano mai state, anche perché l'accesso telefonico costava troppo.
+Il software che faceva funzionare Pangea era WorldGroup 2.0, un'estensione di The Major BBS, un software commerciale americano per BBS. The Major BBS era famoso perché riusciva a gestire, su macchine molto poco potenti tipo un 286, centinaia di interfacce seriali: si potevano creare BBS con moltissime linee in ingresso, con tanta gente che chattava e faceva cose in parallelo. In Italia penso che BBS di queste dimensioni non ce ne siano mai state, anche perché l'accesso telefonico costava troppo.
 
 L'infrastruttura di WorldGroup era il server basato su The Major BBS, più alcuni moduli custom, e un client grafico che multiplexava le connessioni verso questi moduli (non so se usasse TCP/IP o quale protocollo). Il modulo della posta, quello dei download e quello delle chat potevano quindi funzionare tutti insieme, mentre l'utente vedeva un unico ambiente grafico.
 
-Il progetto in realtà era già morto quando siamo partiti, ma l'abbiamo scoperto molto dopo: la società che lo produceva non navigava in buone acque ed il fondatore era appena morto, per cui non ci sono stati ulteriori sviluppi importanti.
+Il progetto in realtà era già morto quando siamo partiti, ma l'abbiamo scoperto molto dopo: la società che lo produceva non navigava in buone acque ed il fondatore si era appena suicidato, per cui non ci sono stati ulteriori sviluppi importanti (vedi https://wiki.mbbsemu.com/doku.php?id=mbbsemu:history:majorbbs ).
 
-All'epoca un prodotto tutto in uno sembrava una buona idea: si installava un oggetto, ci si cliccava sopra e funzionava. Le alternative erano molto più complesse: ai tempi di Windows 3.1 e Windows 95 installarsi il kit di connessione a Internet (il Trumpet Winsock o simili), crearsi a mano le connessioni, installare il browser e poi il programma di posta era al di fuori di quello che un utente non molto sgamato poteva fare.
+All'epoca un prodotto tutto in uno sembrava una buona idea: si installava un oggetto, ci si cliccava sopra e funzionava. Le alternative erano molto più complesse: ai tempi di Windows 3.1 e Windows 95 installarsi il kit di connessione a Internet (il Trumpet Winsock o simili), crearsi a mano le connessioni, installare il browser e poi il programma di posta era al di fuori di quello che un utente non molto sgamato poteva fare (lo so bene, perchè negli anni dell'università arrotondavo installando connessioni internet a privati).
 
 Quello che ci era piaciuto molto era poi la possibilità di collegarsi sia da terminale, come con una BBS normale, sia con il client grafico, con l'off-line reader: si scaricava quello che interessava, si chiudeva la telefonata, si lavorava in locale e ci si riconnetteva per qualche minuto per rimandare indietro le risposte. Così potevamo avere molti più utenti con pochissime linee telefoniche. Se ciascuno fosse rimasto attaccato per un'ora, come in una connessione a Internet, con due linee non saremmo andati lontano.
 
-Il problema di WorldGroup era che era un programma DOS nel senso più bieco del termine. Per l'epoca usava una soluzione piuttosto avanzata: invece di memorizzare i dati come un insieme di file in una directory, come facevano molti programmi di posta del mondo Fido, usava un database, Btrieve, molto efficiente per gestire buone quantità di messaggi, perché aveva gli indici e lavorava in maniera più strutturata. Il limite era che leggere quei dati era sostanzialmente impossibile senza lo schema, che era compilato dentro il programma: i file su disco con i messaggi, l'elenco degli utenti, i log erano opachi. Si facevano i backup comprimendoli, ma senza capire cosa ci fosse dentro, sperando di non doverli mai ripristinare e scoprire che mancava un pezzo e non funzionava più niente.
+Il problema di WorldGroup era che era un programma DOS nel senso più bieco del termine - file system 8.3 e accesso mono utente dalla tastiera. Per l'epoca usava una soluzione piuttosto avanzata: invece di memorizzare i dati come un insieme di file in una directory, come facevano molti programmi di posta del mondo FidoNet, usava un database, Btrieve, molto efficiente per gestire buone quantità di messaggi, perché aveva gli indici e lavorava in maniera più strutturata. Il limite era che leggere quei dati era sostanzialmente impossibile senza lo schema, che era compilato dentro il programma: i file su disco con i messaggi, l'elenco degli utenti, i log erano opachi. Si facevano i backup comprimendoli, ma senza capire cosa ci fosse dentro, sperando di non doverli mai ripristinare e scoprire che mancava un pezzo e non funzionava più niente.
 
 Sul server girava una schermata blu, a cui si lavorava con i tasti funzione e le frecce. Devo dire che, per essere un programma DOS, era molto potente e relativamente stabile: era raro che si piantasse, e questo nonostante i temporali e il fatto che non avessimo nemmeno un gruppo di continuità. Tutto il nostro materiale è sopravvissuto a tutto; forse si è rotto un modem a un certo punto, ma in generale è andato tutto bene.
 
-Essendo DOS, non era multitasking: la macchina faceva solo quello. Per le operazioni di manutenzione, ad una certa ora di notte il programma veniva spento tramite degli script interni: Pangea usciva dalla parte BBS e girava la parte di manutenzione, che cancellava i messaggi più vecchi di una certa data. Se ricordo bene, nei forum tenevamo 15 o 30 giorni di contenuti e per le e-mail forse 60 o 90, una quota piuttosto generosa per una BBS. Era un compromesso tra lo spazio su disco e la gestione di grosse quantità di posta, che temevamo problematica per il server, soprattutto in caso di crescita.
+Essendo DOS, non era multitasking: la macchina faceva solo quello. Per le operazioni di manutenzione, ad una certa ora di notte il programma veniva spento tramite degli script interni: Pangea usciva dalla parte BBS e girava la parte di manutenzione, che cancellava i messaggi più vecchi di una certa data. Se ricordo bene, nei forum tenevamo 15 o 30 giorni di contenuti e per le e-mail forse 60 o 90, una quota piuttosto generosa per una BBS dell'epoca. Era un compromesso tra lo spazio su disco e la gestione di grosse quantità di posta, che temevamo problematica per il server, soprattutto in caso di crescita.
 
 Buona parte del traffico di Pangea erano comunque i messaggi privati e le e-mail che gli utenti si scambiavano tra loro o con altre persone: all'epoca le caselle di posta gratuite erano poche, e offrirne una era un grosso passo avanti.
 
@@ -351,25 +351,25 @@ Buona parte del traffico di Pangea erano comunque i messaggi privati e le e-mail
 
 Gli utenti erano divisi in classi, ciascuna con un proprio profilo e le sue chiavi, che consentivano di fare e vedere cose diverse:
 
-- chi si registrava da solo entrava nella classe **demo**;
-- dopo averci mandato i documenti o essere passato a trovarci, diventava un utente normale (**NP**???);
-- chi decideva di aderire all'associazione, con un contributo molto piccolo, diventava **amico** di Pangea: aveva un tempo di connessione un po' più lungo e, cosa decisamente interessante, poteva inviare e ricevere allegati nella posta verso Internet;
-- chi decideva di partecipare alla vita di Pangea entrava nello **staff**;
-- c'era infine una classe per le **associazioni** presenti sul sistema.
+- chi si registrava da solo entrava nella classe `DEMO`;
+- dopo averci mandato i documenti o essere passato a trovarci, diventava un utente normale (`NP`);
+- chi decideva di aderire all'associazione, con un contributo molto piccolo, diventava `AMICO` di Pangea: aveva un tempo di connessione un po' più lungo e, cosa decisamente interessante, poteva inviare e ricevere allegati nella posta verso Internet;
+- chi decideva di partecipare alla vita di Pangea entrava nello `STAFF`;
+- c'era infine una classe per le `ASSOCIAZIONI` presenti sul sistema.
 
 A seconda della classe cambiava anche la quota di tempo a disposizione: dopo un po' il sistema ti buttava fuori, per evitare che qualcuno occupasse tutte le linee. Cambiavano poi i forum a cui si aveva accesso.
 
 ### Email
 
-La posta funzionava così. Due o tre volte al giorno, probabilmente nelle fasce a tariffa ridotta, il blunzer telefonava a SkyLink. Una volta connesso, dall'altra parte il sistema lo riconosceva e iniziava a consegnare la posta del dominio `pangea.va.it`: il nostro relay era, se ricordo bene, `venere.inet.it`, e fino a quel momento teneva da parte tutto quello che arrivava per noi. Il relay la inoltrava in SMTP al blunzer, che a sua volta la girava, sempre in SMTP, al server di Pangea. Oggi sembra banale, ma allora le due macchine erano in rete tra loro con TCP/IP, cosa tutt'altro che comune.
+Due o tre volte al giorno, probabilmente nelle fasce a tariffa ridotta, il blunzer telefonava a SkyLink via ISDN. Una volta connesso, dall'altra parte il sistema lo riconosceva e iniziava a forwardare la posta del dominio `pangea.va.it`: il nostro relay era, se ricordo bene, `venere.inet.it`, che fino a quel momento teneva da parte tutto quello che arrivava per noi. Il relay la inoltrava in SMTP al blunzer, che a sua volta la girava, sempre in SMTP, al server di Pangea. Oggi sembra banale, ma allora le due macchine erano in rete tra loro con TCP/IP, cosa tutt'altro che comune.
 
-In uscita, il blunzer faceva da relay SMTP per Pangea: prendeva la posta e la teneva ferma nella coda di Sendmail; alla chiamata successiva, la coda ripartiva ed i messaggi arrivavano finalmente a destinazione. Tutto questo era possibile perché WorldGroup aveva un'interfaccia SMTP, in grado sia di produrre sia di ricevere posta in quel formato.
+In uscita, il blunzer faceva a sua volta da relay SMTP per Pangea: prendeva la posta e la teneva ferma nella coda di Sendmail; alla chiamata successiva, la coda ripartiva ed i messaggi arrivavano finalmente a destinazione. Tutto questo era possibile perché WorldGroup aveva un'interfaccia SMTP, in grado sia di produrre sia di ricevere posta in quel formato.
 
 Le due macchine erano collegate anche da un disco Samba, montato in qualche modo sul server di Pangea, che usavamo per i backup: venivano scritti dal server su questo disco, che fisicamente stava sulla macchina Linux.
 
 ### Mailing list
 
-Anche le mailing list erano gestite dal blunzer. Usavamo un programma di cui non ricordo il nome, che ci consentiva di avere liste sul dominio `pangea.va.it`; credo girassero con Sendmail sul server Linux. L'invio avveniva durante lo scambio di posta: quando il blunzer si collegava per prendere la posta, spediva anche i messaggi delle liste. Ce n'erano varie, per diverse associazioni e gruppi di utenti.
+Anche le mailing list erano gestite dal blunzer. Usavamo un programma di cui non ricordo il nome, che ci consentiva di avere liste sul dominio `pangea.va.it`; credo girassero con Sendmail sul server Linux. L'invio avveniva durante lo scambio di posta: quando il blunzer si collegava per prendere la posta, processava e rispediva anche i messaggi delle liste. Ce n'erano varie, per diverse associazioni e gruppi di utenti.
 
 ### Il sito web
 
@@ -377,11 +377,11 @@ Anche le mailing list erano gestite dal blunzer. Usavamo un programma di cui non
 
 Pangea era un sistema isolato, ma noi venivamo dal mondo FidoNet, dove oltre allo scambio di posta - che per noi non era essenziale, perché avevamo già la posta SMTP e potevamo raggiungere gli altri sistemi in quel modo - c'era soprattutto lo scambio delle echomail, ovvero dei contenuti dei forum. In un forum Fido solo una parte dei messaggi era locale, la maggior parte arrivava da altri sistemi, e questo mi sembrava il pezzo che mancava a Pangea.
 
-WorldGroup non aveva, per quel che ne sapevo, un'interfaccia FidoNet, ma usava come tecnologia di messaggistica un sistema chiamato MHS, che in pratica era un formato di testo appena formattato. Aveva una directory in ingresso ed una in uscita: quando si scriveva un file nella directory di ingresso, WorldGroup lo prendeva e lo caricava nei suoi forum; quando c'era un messaggio in uscita destinato a MHS, veniva scritto nella directory di uscita. Questa era una cartella condivisa, per cui poteva essere letta dalla macchina Linux.
+WorldGroup non aveva, per quel che ne sapevo, un'interfaccia FidoNet, ma usava come tecnologia di messaggistica un sistema chiamato MHS, che in pratica era un formato di testo appena formattato. Aveva una directory in ingresso ed una in uscita: quando si scriveva un file nella directory di ingresso, WorldGroup lo prendeva e lo caricava come messaggio locale; quando c'era un messaggio in uscita destinato a MHS, veniva scritto nella directory di uscita. Questa era una cartella condivisa, per cui poteva essere letta dalla macchina Linux. Era pensato per l'email, ma si poteva impostare anche per i forum, come abbiamo scoperto con un po' di sperimentazione.
 
-Su questa avevo scritto un programma che si chiamava **mhs2fido** (per trovare una maniera di scambiare messaggi con la tecnologia Fido): impacchettava i messaggi MHS, li trasformava in testo e li spediva - credo dentro a delle e-mail - al server di RecSanDo, la rete civica di San Donato, che aveva una configurazione simile e con cui avevamo fatto qualche prova di scambio. In realtà non è mai andato in produzione, né da parte nostra né, credo, da parte loro, ma era una cosa interessante per scambiare messaggi tra più BBS.
+Su questa avevo scritto un programma che si chiamava **mhs2fido** (per trovare una maniera di scambiare messaggi con la tecnologia Fido): impacchettava i messaggi MHS, li trasformava in testo e li spediva - credo dentro a delle e-mail - al server di RecSanDo, la rete civica di San Donato, che aveva una configurazione simile e con cui avevamo fatto qualche prova di scambio. In realtà non è mai andato in produzione, come feature pubbica, ma era una cosa interessante per scambiare messaggi tra più BBS.
 
-La prima versione era in C, se non ricordo male; poi ne avevo fatta una in Perl, ma non ricordo se sia mai stata usata. Credo fosse il 1998-99, mentre facevo il servizio civile. Chissà se esiste ancora.
+La prima versione era in C, scritta con il compilare DJGPP; poi ne avevo fatta una in Perl, ma non ricordo se sia mai stata usata. Credo fosse il 1997, mentre facevo il servizio civile. 
 
 
 ## La fine
@@ -399,7 +399,7 @@ Quello che per noi era stato un punto di forza all'inizio, ovvero un sistema tut
 
 Portare Pangea su Internet non era un passaggio facile. Avevamo valutato la possibilità di collegarci con una linea dedicata e di diventare un nodo Internet vero e proprio, ma non siamo mai riusciti a trovare il modo di farlo, perché i costi erano troppo elevati. Quelli che avrebbero potuto essere dei referenti - ad esempio l'università di Varese, che stava nascendo in quegli anni - non erano interessati.
 
-All'inizio si era pensato di aprire Pangea come primo nodo a Varese, per poi aprire altri nodi (altri POP) in altri punti della provincia e collegarli tutti insieme. Ma anche questo costava, e noi non avevamo soldi: tutto il lavoro era amatoriale.
+All'inizio si era pensato di aprire Pangea come primo nodo a Varese, per poi aprire altri nodi (POP) in altri punti della provincia e collegarli tutti insieme. Ma anche questo costava, e noi non avevamo soldi: tutto il lavoro era amatoriale.
 
 ### WorldGroup
 
@@ -411,8 +411,5 @@ Penso che il principale problema di Pangea sia stato che non avevamo un budget: 
 
 A posteriori credo poi che quando una cosa non costa niente, non vale niente: se ti viene regalata, dici "chi se ne frega" e non le dai nessun valore.
 
-Infine, c'era un fatto generazionale: i fondatori di Pangea stavano finendo l'università e ciascuno iniziava ad avere la propria vita da adulto, per cui l'interesse per il gruppo era scemato.
-
-
-## Ringraziamenti
+Infine, c'era un fatto generazionale: i fondatori di Pangea stavano finendo l'università e ciascuno iniziava ad avere la propria vita da adulto, per cui l'interesse per il gruppo era scemato. 
 
