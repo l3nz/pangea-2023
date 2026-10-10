@@ -5,11 +5,14 @@
 > Se avete correzioni, sono le benvenute.
 
 
+Revisioni:
 
-
+- 261010
 - 241229
 
-Tanto tempo fa, in una galassia lontana lontana....
+
+
+Tanto tempo fa, in una galassia lontana lontana... c'era un volantino che diceva:
 
 
 _Pangea è un'iniziativa nata nel luglio 1996 volta a costruire e gestire la prima vera Rete Civica di Varese, una vera e propria piazza virtuale in cui si ritrovano persone, associazioni ed enti che vivono ed operano in Varese e nella sua provincia. Il fine è quello di semplificare e favorire le relazioni umane e di collaborazione tramite l'uso intelligente ed innovativo della tecnologia informatica. L'obiettivo è infatti di migliorare la qualità della vita sociale e di accrescere il senso di appartenenza alla comunità locale._
