@@ -175,3 +175,10 @@ Win95 to  10.0.2.2:23 in oder to reach the host, and thence Pangea.
 - Then start two copies of tightvnc
 
 
+
+## Da provare: mbbsemu
+
+https://github.com/mbbsemu/MBBSEmu
+
+
+
