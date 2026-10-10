@@ -165,28 +165,27 @@ Serata Nanni Moretti
 
 ## I Pangeanti
 
+Visto che alla registrazione chiedevamo la data di nascita - e penso che quasi tutti la inserissero corretta - possiamo dire qualcosa di preciso su chi fossero gli utenti. Il grafico qui sotto è per fasce di età: il 61% aveva tra i 20 e i 29 anni ed il 75% tra i 20 e i 39, più o meno la stessa popolazione che allora usava Internet: soprattutto studenti universitari e giovani lavoratori.
 
+![Età degli utenti al momento della registrazione](images/storia/utenti_per_eta.png?raw=true "Età degli utenti")
 
+Interessante il fatto che circa un quinto degli utenti fosse donna (21%, 61 su 281 di cui conosciamo il sesso). Per i tempi, e soprattutto venendo dal mondo delle BBS, erano numeri molto elevati: nelle BBS la presenza femminile era limitatissima.
 
+![Sesso degli utenti](images/storia/utenti_per_sesso.png?raw=true "Sesso degli utenti")
 
+Quanto alla crescita, i trimestri con più attivazioni sono stati il terzo del 1996, quando abbiamo aperto e abbiamo iniziato a uscire sui giornali (38 nuovi utenti), e soprattutto il secondo del 1997 (64), con un picco a luglio (23 in un mese). Nel 1998 i numeri sono stati più bassi ma tendenzialmente in crescita; all'inizio del 1999 sono scesi, probabilmente perché l'interesse era un po' scemato.
 
+![Nuovi utenti per trimestre](images/storia/utenti_per_quarter.png?raw=true "Nuovi utenti per trimestre")
 
-![AltText](images/storia/utenti_per_classe.png?raw=true "...")
+![Nuovi utenti per mese](images/storia/utenti_per_mese.png?raw=true "Nuovi utenti per mese")
 
+Alla fine Pangea ha avuto circa trecento utenti registrati in totale, un numero oggi non granché, ma per allora, e per Varese, non era poco.
 
-![AltText](images/storia/utenti_per_eta.png?raw=true "...")
+![Utenti totali per trimestre](images/storia/utenti_stock.png?raw=true "Utenti totali")
 
+Per classe, quasi due terzi (190, il 64%) erano utenti normali; poi 47 demo (15%), 24 amici (8%), 16 associazioni e 16 staff (5% ciascuno).
 
-![AltText](images/storia/utenti_per_mese.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_per_quarter.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_per_sesso.png?raw=true "...")
-
-
-![AltText](images/storia/utenti_stock.png?raw=true "...")
+![Utenti per classe](images/storia/utenti_per_classe.png?raw=true "Utenti per classe")
 
 
 ### Enti ed associazioni
@@ -330,8 +329,35 @@ Nella schermata, scattata mentre sono collegato con il client, la parte **Users*
 
 ### WorldGroup
 
+Il software che faceva funzionare Pangea era WorldGroup, un'estensione di The Major BBS, un software commerciale americano per BBS. The Major BBS era famoso perché riusciva a gestire, su macchine molto poco potenti, centinaia di schede seriali: si potevano creare BBS con moltissime linee in ingresso, con tanta gente che chattava e faceva cose in parallelo. In Italia penso che BBS di queste dimensioni non ce ne siano mai state, anche perché l'accesso telefonico costava troppo.
+
+L'infrastruttura di WorldGroup era il server basato su The Major BBS, più alcuni moduli custom, e un client grafico che multiplexava le connessioni verso questi moduli (non so se usasse TCP/IP o quale protocollo). Il modulo della posta, quello dei download e quello delle chat potevano quindi funzionare tutti insieme, mentre l'utente vedeva un unico ambiente grafico.
+
+Il progetto in realtà era già morto quando siamo partiti, ma l'abbiamo scoperto molto dopo: la società che lo produceva non navigava in buone acque ed il fondatore era appena morto, per cui non ci sono stati ulteriori sviluppi importanti.
+
+All'epoca un prodotto tutto in uno sembrava una buona idea: si installava un oggetto, ci si cliccava sopra e funzionava. Le alternative erano molto più complesse: ai tempi di Windows 3.1 e Windows 95 installarsi il kit di connessione a Internet (il Trumpet Winsock o simili), crearsi a mano le connessioni, installare il browser e poi il programma di posta era al di fuori di quello che un utente non molto sgamato poteva fare.
+
+Quello che ci era piaciuto molto era poi la possibilità di collegarsi sia da terminale, come con una BBS normale, sia con il client grafico, con l'off-line reader: si scaricava quello che interessava, si chiudeva la telefonata, si lavorava in locale e ci si riconnetteva per qualche minuto per rimandare indietro le risposte. Così potevamo avere molti più utenti con pochissime linee telefoniche. Se ciascuno fosse rimasto attaccato per un'ora, come in una connessione a Internet, con due linee non saremmo andati lontano.
+
+Il problema di WorldGroup era che era un programma DOS nel senso più bieco del termine. Per l'epoca usava una soluzione piuttosto avanzata: invece di memorizzare i dati come un insieme di file in una directory, come facevano molti programmi di posta del mondo Fido, usava un database, Btrieve, molto efficiente per gestire buone quantità di messaggi, perché aveva gli indici e lavorava in maniera più strutturata. Il limite era che leggere quei dati era sostanzialmente impossibile senza lo schema, che era compilato dentro il programma: i file su disco con i messaggi, l'elenco degli utenti, i log erano opachi. Si facevano i backup comprimendoli, ma senza capire cosa ci fosse dentro, sperando di non doverli mai ripristinare e scoprire che mancava un pezzo e non funzionava più niente.
+
+Sul server girava una schermata blu, a cui si lavorava con i tasti funzione e le frecce. Devo dire che, per essere un programma DOS, era molto potente e relativamente stabile: era raro che si piantasse, e questo nonostante i temporali e il fatto che non avessimo nemmeno un gruppo di continuità. Tutto il nostro materiale è sopravvissuto a tutto; forse si è rotto un modem a un certo punto, ma in generale è andato tutto bene.
+
+Essendo DOS, non era multitasking: la macchina faceva solo quello. Per le operazioni di manutenzione, ad una certa ora di notte il programma veniva spento tramite degli script interni: Pangea usciva dalla parte BBS e girava la parte di manutenzione, che cancellava i messaggi più vecchi di una certa data. Se ricordo bene, nei forum tenevamo 15 o 30 giorni di contenuti e per le e-mail forse 60 o 90, una quota piuttosto generosa per una BBS. Era un compromesso tra lo spazio su disco e la gestione di grosse quantità di posta, che temevamo problematica per il server, soprattutto in caso di crescita.
+
+Buona parte del traffico di Pangea erano comunque i messaggi privati e le e-mail che gli utenti si scambiavano tra loro o con altre persone: all'epoca le caselle di posta gratuite erano poche, e offrirne una era un grosso passo avanti.
+
 ### Le classi di utenti
 
+Gli utenti erano divisi in classi, ciascuna con un proprio profilo e le sue chiavi, che consentivano di fare e vedere cose diverse:
+
+- chi si registrava da solo entrava nella classe **demo**;
+- dopo averci mandato i documenti o essere passato a trovarci, diventava un utente normale (**NP**???);
+- chi decideva di aderire all'associazione, con un contributo molto piccolo, diventava **amico** di Pangea: aveva un tempo di connessione un po' più lungo e, cosa decisamente interessante, poteva inviare e ricevere allegati nella posta verso Internet;
+- chi decideva di partecipare alla vita di Pangea entrava nello **staff**;
+- c'era infine una classe per le **associazioni** presenti sul sistema.
+
+A seconda della classe cambiava anche la quota di tempo a disposizione: dopo un po' il sistema ti buttava fuori, per evitare che qualcuno occupasse tutte le linee. Cambiavano poi i forum a cui si aveva accesso.
 
 ### Email
 
@@ -342,6 +368,8 @@ In uscita, il blunzer faceva da relay SMTP per Pangea: prendeva la posta e la te
 Le due macchine erano collegate anche da un disco Samba, montato in qualche modo sul server di Pangea, che usavamo per i backup: venivano scritti dal server su questo disco, che fisicamente stava sulla macchina Linux.
 
 ### Mailing list
+
+Anche le mailing list erano gestite dal blunzer. Usavamo un programma di cui non ricordo il nome, che ci consentiva di avere liste sul dominio `pangea.va.it`; credo girassero con Sendmail sul server Linux. L'invio avveniva durante lo scambio di posta: quando il blunzer si collegava per prendere la posta, spediva anche i messaggi delle liste. Ce n'erano varie, per diverse associazioni e gruppi di utenti.
 
 ### Il sito web
 
@@ -363,10 +391,27 @@ Le ultime telefonate a Pangea sono state fatte il 3 Agosto 1999, a quasi tre ann
 
 ### Il mondo cambia
 
+Che cosa è andato bene e che cosa è andato male? Innanzitutto, tra il 1996 ed il 1999 il mondo è cambiato. Nel 1996 c'erano i primi accessi a Internet e buona parte di chi viveva legato alla telematica stava ancora nelle BBS. Nel 1999 Internet era di uso, tra virgolette, comune: molta più gente ce l'aveva e c'erano molte più possibilità di accesso.
+
+Quello che per noi era stato un punto di forza all'inizio, ovvero un sistema tutto in uno che funzionava senza bisogno di configurare una connessione Internet e senza pagare un abbonamento, alla fine non era più un elemento di differenziazione positiva. La gente avrebbe comunque avuto l'accesso a Internet: spesso il motivo per cui si comprava un computer ed un modem era proprio quello.
+
 ### Accesso a Internet
+
+Portare Pangea su Internet non era un passaggio facile. Avevamo valutato la possibilità di collegarci con una linea dedicata e di diventare un nodo Internet vero e proprio, ma non siamo mai riusciti a trovare il modo di farlo, perché i costi erano troppo elevati. Quelli che avrebbero potuto essere dei referenti - ad esempio l'università di Varese, che stava nascendo in quegli anni - non erano interessati.
+
+All'inizio si era pensato di aprire Pangea come primo nodo a Varese, per poi aprire altri nodi (altri POP) in altri punti della provincia e collegarli tutti insieme. Ma anche questo costava, e noi non avevamo soldi: tutto il lavoro era amatoriale.
 
 ### WorldGroup
 
+Il software di WorldGroup non aveva avuto ulteriori sviluppi e non era direttamente compatibile con il nuovo mondo di Internet, per cui l'idea di portare Pangea su Internet non era di facile realizzazione. So che WorldGroup ha avuto in seguito un'interfaccia HTML, ma è arrivata molto più tardi.
+
+### Perché è finita
+
+Penso che il principale problema di Pangea sia stato che non avevamo un budget: le entrate bastavano appena a pagare le bollette del telefono, e non avevamo la capacità di raccogliere fondi adeguati per un progetto di un certo respiro. Non avevamo nemmeno un'offerta per enti ed associazioni che fosse sufficientemente convincente: forse non sapevano di che cosa si stesse parlando, forse noi non siamo stati in grado di raccontarlo. I finanziamenti sono sempre stati molto bassi, e non siamo mai riusciti a scollarci da lì.
+
+A posteriori credo poi che quando una cosa non costa niente, non vale niente: se ti viene regalata, dici "chi se ne frega" e non le dai nessun valore.
+
+Infine, c'era un fatto generazionale: i fondatori di Pangea stavano finendo l'università e ciascuno iniziava ad avere la propria vita da adulto, per cui l'interesse per il gruppo era scemato.
 
 
 ## Ringraziamenti
