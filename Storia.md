@@ -103,7 +103,7 @@ Mi perdoni il lettore, ma devo ammettere che non ricordo esattamente come sia na
 
 A questo punto, il 15 luglio 1996 creammo l'Associazione Culturale Pangea, aprimmo un’utenza telefonica, cercammo di tenere le spese al minimo e partimmo.
 
-Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonché una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le ? pagine del manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
+Dai log del server, i primi utenti risultano registrati il **6 agosto del 1996**, quasi certamente nel corso della prima installazione del software. Quello che ricordo è che faceva caldo, nonché una certa tensione dopo la nottata passata a leggere dall'inizio alla fine le 700 pagine dell'ottimo manuale di WorldGroup. La prima chiamata alla BBS, per vedere se il modem funzionava, venne fatta da Iole.
 
 I primi utenti registrati (6/8/96) sono Cjk, Ghost, Lenz e Gab; il 7 si sono aggiunti Luigi e Serena.
 
